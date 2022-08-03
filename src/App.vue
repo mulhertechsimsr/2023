@@ -1,28 +1,47 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app>
+    <v-main class="background" >
+      <NavBar/>
+      <Header/>
+      <Inscricoes/>
+      <Cronometro />
+      <SobreEvento/>
+      <Programacao/>
+      <CodigoConduta/>
+      <Local/>
+      <FooterEvento/>
+    </v-main>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NavBar from './components/NavBar';
+import Header from './components/Header.vue';
+import Inscricoes from './components/Inscricoes.vue';
+import Cronometro from './components/Cronometro.vue';
+import SobreEvento from './components/SobreEvento.vue';
+import Programacao from './components/Programacao.vue';
+import Local from './components/LocalEvento.vue';
+import CodigoConduta from './components/CodigoConduta.vue';
+import FooterEvento from './components/Footer.vue';
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
-}
-</script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+  components: {
+    NavBar,
+    Header,
+    Inscricoes,
+    Cronometro,
+    SobreEvento,
+    Programacao,
+    CodigoConduta,
+    FooterEvento,
+    Local,
+  },
+
+  data: () => ({
+    //
+  }),
+};
+</script>
