@@ -6,7 +6,6 @@
         class="shrink mr-2 mt-4"
         contain
         src="../assets/img/logo.svg"
-        transition="scale-transition"
         width="60"
       />
     </div>
@@ -37,6 +36,13 @@
         <v-btn>
         <a href="#4">
           Local
+        </a>
+        </v-btn>
+      </v-small>
+      <v-small class="mr-5"  flat>
+        <v-btn>
+        <a href="https://www.eventbrite.com.br/e/mulher-tech-sim-senhor-2022-tickets-396687421757" target="_blank">
+          Inscreva-se
         </a>
         </v-btn>
       </v-small>
@@ -84,7 +90,7 @@
   height: 80px !important;
   position: fixed;
   width:100vw;
-  z-index: 1;
+  z-index: 2;
 }
 
 a{

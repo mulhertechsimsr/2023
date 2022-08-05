@@ -7,9 +7,8 @@
         <div class="d-flex" style="justify-content: center; ">
             <h1 class="titulo" style="width: 50%;">O MAIOR ENCONTRO DE MULHERES DE TI DA PARAÍBA ESTÁ DE VOLTA!!</h1>
         </div>
-        <div>
-            <h3 class="embreve" style="margin-bottom: 50px;
-    margin-top: 50px;">INSCRIÇÕES EM BREVE</h3>
+        <div class="d-flex mt-10 mb-10" style="justify-content: center; ">
+            <v-btn class="botao" target="_blank"  href="https://www.eventbrite.com.br/e/mulher-tech-sim-senhor-2022-tickets-396687421757">INSCREVA-SE</v-btn>
         </div>
     </div>
   </div>
@@ -36,12 +35,26 @@
     background: linear-gradient(90.14deg, rgba(254, 23, 181, 0) -0.05%, rgba(254, 23, 181, 0.44) 49.97%, rgba(254, 23, 181, 0) 96%);;
 }
 
+.botao{
+  background: linear-gradient(180deg, #6605CB 0%, #160029 100%);
+  box-shadow: 9px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 30px 40px !important;
+  color: #FFFFFF;
+}
+
 @media (max-width: 600px) {
   .subtitulo {
     font-size: 12px;
   }
   .titulo {
-    font-size: 20px;
+    font-size: 18px !important;
     width: 90% !important;
   }
   .embreve {
