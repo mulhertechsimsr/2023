@@ -18,7 +18,7 @@
             <div style="margin-bottom:50px">>
               <h2 class="mt-0">Edições anteriores</h2>
               <v-row justify="center">
-                <a href="/2021.1/" target="__blank"> 2021.1</a>
+                <a href="/2022.1/" target="__blank"> 2022.1</a>
                 <p class="mr-2 ml-2">|</p>
                 <a href="/2019/" target="__blank"> 2019</a>
                 <p class="mr-2 ml-2">|</p>
