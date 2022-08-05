@@ -5,21 +5,21 @@
     </div>
     {{cronometro()}}
     <div class="cronometro">
-        <div class="pacman-css mr-15"></div>
-        <div class="fantasma mr-5"> 
-            <img src="../assets/img/fantasma1.svg" alt="fantasma"  width="100px" height="200px"/>
+        <div class="pacman-css"></div>
+        <div class="fantasma"> 
+            <img src="../assets/img/fantasma1.svg" alt="fantasma" class="fantasmatamanho"/>
             <label class="posicao_fantasma" id="days"></label>      
         </div>
-        <div class="fantasma mr-5">
-            <img src="../assets/img/fantasma2.svg" alt="fantasma" width="100px" height="200px"/>
+        <div class="fantasma">
+            <img src="../assets/img/fantasma2.svg" alt="fantasma" class="fantasmatamanho"/>
             <label class="posicao_fantasma" id="hours"></label>
         </div>
-        <div class="fantasma mr-5">
-            <img src="../assets/img/fantasma3.svg" alt="fantasma" width="100px" height="200px"/>
+        <div class="fantasma">
+            <img src="../assets/img/fantasma3.svg" alt="fantasma" class="fantasmatamanho"/>
             <label class="posicao_fantasma" id="minutes"></label>
         </div>
-        <div class="fantasma mr-5">
-            <img src="../assets/img/fantasma4.svg" alt="fantasma" width="100px" height="200px"/>
+        <div class="fantasma">
+            <img src="../assets/img/fantasma4.svg" alt="fantasma" class="fantasmatamanho"/>
             <label class="posicao_fantasma" id="seconds"></label>
         </div>
     </div>
@@ -61,12 +61,92 @@
 </script>
 
 <style>
-
-.pacman-css, .pacman-css::before, .pacman-css::after {
-    width: 150px;
-    height: 160px;
+@media (max-width: 600px) {
+    .pacman-css, .pacman-css::before, .pacman-css::after {
+    width: 75px;
+    height: 80px;
+    margin-right:10px;
     
 }
+    .fantasmatamanho{
+        width: 50px;
+        height: 100px;
+        margin-right:5px;
+    }
+
+    .posicao_fantasma{
+    position: absolute;
+    top: 18%;
+    right: 35%;
+    }
+
+    label{
+        font-size:16px
+    }
+
+    h1{
+        font-size: 22px !important;
+        width: 90% !important;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 960px) {
+    .pacman-css, .pacman-css::before, .pacman-css::after {
+    width: 125px;
+    height: 130px;
+    margin-right:20px;
+    }
+    .fantasmatamanho{
+        width: 90px;
+        margin-right:10px;
+    }
+
+    .posicao_fantasma{
+    position: absolute;
+    top: 25%;
+    right: 40%;
+    }
+
+    label{
+        font-size:24px
+    }
+
+    h1{
+        font-size: 26px !important;
+        width: 90% !important;
+    }
+    
+}
+
+@media (min-width: 961px) {
+    .pacman-css, .pacman-css::before, .pacman-css::after {
+    width: 150px;
+    height: 160px;
+    margin-right:30px;
+    }
+    .fantasmatamanho{
+        width: 100px;
+        height: 200px;
+        margin-right:20px;
+    }
+
+    .posicao_fantasma{
+    position: absolute;
+    top: 30%;
+    right: 45%;
+    }
+
+    label{
+        font-size:24px
+    }
+
+    h1{
+        font-size: 26px !important;
+        width: 90% !important;
+    }
+}
+
+
 
 .pacman-css {
     position: relative;
@@ -112,7 +192,6 @@
 label{
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
     line-height: 50px;
     text-align: center;
     color: #D9CD2B;
@@ -123,11 +202,6 @@ label{
     position: relative;
 }
 
-.posicao_fantasma{
-  position: absolute;
-  top: 30%;
-  right: 32%;
-}
 .cronometro{
     display: flex;
     margin-top: 20px;

@@ -7,20 +7,20 @@
     <v-row
       justify="center"
       no-gutters
-      class="mt-10" 
+      class="mt-10 mr-10 ml-10" 
       style="width:100%"
     >
-    <v-col class="ml-5">
+    <v-col class="mb-10 mt-5" style="display:flex; align-items:center; justify-content: center">
         <v-img
-        alt="Vuetify Logo"
-        class="shrink mr-2 mt-4"
+        alt="Vuetify Logo mr-0"
+        class="shrink"
         contain
         src="../assets/img/logo.svg"
         transition="scale-transition"
         width="150px"
       />
     </v-col>
-    <v-col style="display:flex; align-items:center; justify-content: center; flex-direction: column">
+    <v-col class="mb-10 coluna" style="display:flex; align-items:center; justify-content: center; flex-direction: column">
         <p>FALE CONOSCO</p>
         <div class="d-flex">
             <v-btn  href="https://www.instagram.com/mulhertechsimsr/" target="_blank">
@@ -34,10 +34,10 @@
             </v-btn>
         </div>
     </v-col>
-    <v-col class="mr-10" style="display:flex; align-items:center; justify-content: flex-end">
+    <v-col style="display:flex; align-items:center; justify-content: center">
         <v-img
         alt="Vuetify Logo"
-        class="shrink mr-2 mt-4"
+        class="shrink"
         contain
         src="../assets/img/woman.svg"
         transition="scale-transition"
@@ -48,7 +48,7 @@
     <v-row
     justify="center"
       no-gutters
-      class="mt-5">
+      class="mt-5 mr-5 ml-5" style="text-align:center">
         <p>Mulher Tech Sim Senhor - 2022 | João Pessoa - PB, Brasil | 03 de Setembro</p>
     </v-row>
   </v-footer>
@@ -69,6 +69,7 @@
     background-color: #f0ffff00;
     border-radius: 100px;
     color: white;
+    font-weight: normal;
     
 }
 .v-btn--is-elevated{
@@ -78,4 +79,6 @@
   background: linear-gradient(89.91deg, #0E1F4B 5.49%, #B71E87 100.75%) !important;
 
 }
+
+
 </style>

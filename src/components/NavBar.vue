@@ -1,5 +1,5 @@
 <template>
-  <v-toolbar class="nav">
+  <v-toolbar class="nav hidden-sm-and-down">
     <div class="d-flex align-center">
       <v-img
         alt="Vuetify Logo"
@@ -13,24 +13,32 @@
     <v-spacer></v-spacer>
     <v-toolbar-items class="hidden-sm-and-down mt-4">
       <v-small class="mr-5"  flat>
-        <a href="#1">
-          Sobre o evento
-        </a>
+        <v-btn>
+          <a href="#1">
+            Sobre o evento
+          </a>
+        </v-btn>
       </v-small>
       <v-small class="mr-5"  flat>
+        <v-btn>
         <a href="#2">
           Programação
         </a>
+        </v-btn>
       </v-small>
       <v-small class="mr-5"  flat>
+        <v-btn>
         <a href="#3">
           Código de Conduta 
         </a>
+        </v-btn>
       </v-small>
       <v-small class="mr-5"  flat>
+        <v-btn>
         <a href="#4">
           Local
         </a>
+        </v-btn>
       </v-small>
       </v-toolbar-items>
       </v-toolbar>
@@ -60,6 +68,17 @@
 </script>
 
 <style>
+.theme--light.v-btn.v-btn--has-bg{
+    background-color: #f0ffff00;
+    border-radius: 100px;
+    color: white;
+    text-transform: none;
+    
+}
+.v-btn--is-elevated{
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 0%), 0px 2px 2px 0px rgb(0 0 0 / 0%), 0px 1px 5px 0px rgb(0 0 0 / 0%);
+}
+
 .nav{
   background: linear-gradient(89.91deg, #0E1F4B 5.49%, #B71E87 100.75%) !important;
   height: 80px !important;

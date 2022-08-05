@@ -4,19 +4,17 @@
             <div class="d-flex" style="justify-content:center; margin-top: 45px; margin-bottom:50px">
                 <h1 class="w-100" >CONHEÇA NOSSO EVENTO</h1>
             </div>
-                <v-row style="justify-content: space-evenly; padding-left: 10%; padding-right: 10%">
-                    <v-col cols="12" sm="12" md="6" lg="6" xl="6">
-                        <div>
-                            <img src="../assets/img/evento.svg" alt="MulherTech" width="100%"/>
+                <div style="padding-left: 5%; padding-right: 5%">
+                        <div style="text-align: center !important;">
+                            <img class="hidden" src="../assets/img/evento2.svg" alt="MulherTech" width="100%" style="border-radius:15px"/>
+                            <img class="hidden2" src="../assets/img/evento.svg" alt="MulherTech" width="100%" style="border-radius:15px"/>
+                            <small> Mulher Tech Sim Senhor 2022.1 </small>
                         </div>
-                    </v-col>
-                    <v-col cols="12" sm="12" md="6" lg="6" xl="6">
-                        <div>
+                        <div class="mt-5">
                             <p>O Mulher Tech Sim Senhor é um grande encontro das mulheres de TI da Paraíba, promovido anualmente pelo Women Techmakers JP, um programa de alcance global do Google.</p>
                             <p>Realizado desde 2016, o evento oferece à comunidade palestras, mini-cursos e mesas redondas, com discussão não apenas de conteúdos técnicos, mas também de assuntos como diversidade, igualdade de gênero e mercado de trabalho.</p>
                         </div>
-                    </v-col>
-                </v-row>
+                </div>
     </v-container>
   </div>
 </template>
@@ -31,6 +29,59 @@
 </script>
 
 <style>
+.hidden{
+    display: none;
+}
+.hidden2{
+    display: block;
+}
+
+@media (max-width: 600px) {
+  .bloco {
+    width: 90% !important;
+  }
+
+  h1{
+    font-size: 22px;
+  }
+
+  p{
+    font-size: 12px !important;
+  }
+
+  .hidden{
+    display: block !important;
+  }
+  .hidden2{
+    display: none !important;
+  }
+
+}
+
+@media (min-width: 601px) and (max-width: 960px) {
+  .bloco {
+    width: 90% !important;
+  }
+
+  h1{
+    font-size: 24px;
+  }
+
+  p{
+    font-size: 14px !important;
+  }
+}
+small{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 163.7%;
+    /* or 39px */
+
+    text-align: justify;
+
+    color: #FFFFFF;
+}
 p{
     font-style: normal;
     font-weight: 400;

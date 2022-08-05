@@ -21,6 +21,34 @@
 </script>
 
 <style>
+@media (max-width: 600px) {
+  .bloco {
+    width: 90% !important;
+  }
+
+  h1{
+    font-size: 22px;
+  }
+
+  p{
+    font-size: 12px !important;
+  }
+
+}
+
+@media (min-width: 601px) and (max-width: 960px) {
+  .bloco {
+    width: 90% !important;
+  }
+
+  h1{
+    font-size: 24px;
+  }
+
+  p{
+    font-size: 14px !important;
+  }
+}
 p{
     font-style: normal;
     font-weight: 400;

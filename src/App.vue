@@ -7,6 +7,7 @@
       <Cronometro />
       <SobreEvento/>
       <Programacao/>
+      <InscricaoGarante/>
       <CodigoConduta/>
       <Local/>
       <FooterEvento/>
@@ -23,7 +24,9 @@ import SobreEvento from './components/SobreEvento.vue';
 import Programacao from './components/Programacao.vue';
 import Local from './components/LocalEvento.vue';
 import CodigoConduta from './components/CodigoConduta.vue';
+import InscricaoGarante from './components/InscricaoGarante.vue';
 import FooterEvento from './components/Footer.vue';
+
 
 export default {
   name: 'App',
@@ -38,6 +41,7 @@ export default {
     CodigoConduta,
     FooterEvento,
     Local,
+    InscricaoGarante,
   },
 
   data: () => ({
