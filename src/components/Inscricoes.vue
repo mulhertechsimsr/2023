@@ -8,7 +8,7 @@
             <h1 class="titulo" style="width: 50%;">O MAIOR ENCONTRO DE MULHERES DE TI DA PARAÍBA ESTÁ DE VOLTA!!</h1>
         </div>
         <div class="d-flex mt-10 mb-10" style="justify-content: center; ">
-            <v-btn class="botao"><a href="">INSCREVA-SE</a></v-btn>
+            <v-btn class="botao" target="_blank"  href="https://www.eventbrite.com.br/e/mulher-tech-sim-senhor-2022-tickets-396687421757">INSCREVA-SE</v-btn>
         </div>
     </div>
   </div>

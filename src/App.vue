@@ -8,9 +8,11 @@
       <SobreEvento/>
       <Programacao/>
       <InscricaoGarante/>
+      <PerguntasFrequentes/>
       <CodigoConduta/>
       <Local/>
       <FooterEvento/>
+      
     </v-main>
   </v-app>
 </template>
@@ -25,8 +27,8 @@ import Programacao from './components/Programacao.vue';
 import Local from './components/LocalEvento.vue';
 import CodigoConduta from './components/CodigoConduta.vue';
 import InscricaoGarante from './components/InscricaoGarante.vue';
+import PerguntasFrequentes from './components/PerguntasFrequentes.vue';
 import FooterEvento from './components/Footer.vue';
-
 
 export default {
   name: 'App',
@@ -42,6 +44,7 @@ export default {
     FooterEvento,
     Local,
     InscricaoGarante,
+    PerguntasFrequentes,
   },
 
   data: () => ({

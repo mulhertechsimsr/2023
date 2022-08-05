@@ -23,15 +23,39 @@
     <v-col class="mb-10 coluna" style="display:flex; align-items:center; justify-content: center; flex-direction: column">
         <p>FALE CONOSCO</p>
         <div class="d-flex">
-            <v-btn  href="https://www.instagram.com/mulhertechsimsr/" target="_blank">
-                <v-icon>mdi-instagram</v-icon>
-            </v-btn>
-            <v-btn  href="https://www.linkedin.com/company/mulher-tech-sim-senhor/" target="_blank">
-                <v-icon>mdi-linkedin</v-icon>
-            </v-btn>
-            <v-btn  href="https://www.facebook.com/mulhertechsimsr" target="_blank">
-                <v-icon>mdi-facebook</v-icon>
-            </v-btn>
+            <v-tooltip bottom>
+              <template v-slot:activator="{on}">
+                <v-btn class="mr-5" text icon v-on="on" href="https://www.instagram.com/mulhertechsimsr/" target="_blank">
+                  <v-icon small class="icon" style="font-size:30px !important">mdi-instagram</v-icon>
+                </v-btn>
+              </template>
+              <span>Instagram</span>
+            </v-tooltip>
+            <v-tooltip bottom>
+              <template v-slot:activator="{on}">
+                <v-btn class="mr-5" text icon v-on="on" href="https://www.linkedin.com/company/mulher-tech-sim-senhor/" target="_blank">
+                  <v-icon small class="icon" style="font-size:30px !important">mdi-linkedin</v-icon>
+                </v-btn>
+              </template>
+              <span>Linkedin</span>
+            </v-tooltip>
+
+            <v-tooltip bottom>
+              <template v-slot:activator="{on}">
+                <v-btn class="mr-5" text icon v-on="on" href="https://www.facebook.com/mulhertechsimsr" target="_blank">
+                  <v-icon small class="icon" style="font-size:30px !important">mdi-facebook</v-icon>
+                </v-btn>
+              </template>
+              <span>Facebook</span>
+            </v-tooltip>
+            <v-tooltip bottom>
+              <template v-slot:activator="{on}">
+                <v-btn text icon v-on="on" href="https://open.spotify.com/playlist/4iaqlHEzL0UDGdt2rq0fV2" target="_blank">
+                  <v-icon small class="icon" style="font-size:30px !important">mdi-spotify</v-icon>
+                </v-btn>
+              </template>
+              <span>Spotify</span>
+            </v-tooltip>
         </div>
     </v-col>
     <v-col style="display:flex; align-items:center; justify-content: center">

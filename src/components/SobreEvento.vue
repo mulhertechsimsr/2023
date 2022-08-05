@@ -4,17 +4,31 @@
             <div class="d-flex" style="justify-content:center; margin-top: 45px; margin-bottom:50px">
                 <h1 class="w-100" >CONHEÇA NOSSO EVENTO</h1>
             </div>
-                <div style="padding-left: 5%; padding-right: 5%">
-                        <div style="text-align: center !important;">
-                            <img class="hidden" src="../assets/img/evento2.svg" alt="MulherTech" width="100%" style="border-radius:15px"/>
-                            <img class="hidden2" src="../assets/img/evento.svg" alt="MulherTech" width="100%" style="border-radius:15px"/>
-                            <small> Mulher Tech Sim Senhor 2022.1 </small>
-                        </div>
-                        <div class="mt-5">
-                            <p>O Mulher Tech Sim Senhor é um grande encontro das mulheres de TI da Paraíba, promovido anualmente pelo Women Techmakers JP, um programa de alcance global do Google.</p>
-                            <p>Realizado desde 2016, o evento oferece à comunidade palestras, mini-cursos e mesas redondas, com discussão não apenas de conteúdos técnicos, mas também de assuntos como diversidade, igualdade de gênero e mercado de trabalho.</p>
-                        </div>
-                </div>
+            <div style="padding-left: 5%; padding-right: 5%">
+                    <div style="text-align: center !important;">
+                        <img class="hidden" src="../assets/img/evento2.svg" alt="MulherTech" width="100%" style="border-radius:15px"/>
+                        <img class="hidden2" src="../assets/img/evento.svg" alt="MulherTech" width="100%" style="border-radius:15px"/>
+                        <small> Mulher Tech Sim Senhor 2022.1 </small>
+                    </div>
+                    <div class="mt-5">
+                        <p>O Mulher Tech Sim Senhor é um grande encontro das mulheres de TI da Paraíba, promovido anualmente pelo Women Techmakers JP, um programa de alcance global do Google.</p>
+                        <p>Realizado desde 2016, o evento oferece à comunidade palestras, mini-cursos e mesas redondas, com discussão não apenas de conteúdos técnicos, mas também de assuntos como diversidade, igualdade de gênero e mercado de trabalho.</p>
+                    </div>
+            </div>
+            <div style="margin-bottom:50px">>
+              <h2 class="mt-0">Edições anteriores</h2>
+              <v-row justify="center">
+                <a href="/2021.1/" target="__blank"> 2021.1</a>
+                <p class="mr-2 ml-2">|</p>
+                <a href="/2019/" target="__blank"> 2019</a>
+                <p class="mr-2 ml-2">|</p>
+                <a href="/2018/" target="__blank"> 2018</a>
+                <p class="mr-2 ml-2">|</p>
+                <a href="/2017/" target="__blank"> 2017</a>
+                <p class="mr-2 ml-2">|</p>
+                <a href="/2016/" target="__blank"> 2016</a>
+              </v-row>
+            </div>
     </v-container>
   </div>
 </template>

@@ -5,7 +5,6 @@
           class="shrink"
           contain
           src="../assets/img/header.svg"
-          transition="scale-transition"
           width="120vw"
         />
       </div>
