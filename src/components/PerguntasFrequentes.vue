@@ -4,7 +4,7 @@
         <div class="d-flex" style="justify-content:center; margin-top: 45px; margin-bottom:50px">
                 <h1 class="w-100" >PERGUNTAS FREQUENTES</h1>
             </div>
-        <div style="padding-left: 5%; padding-right: 5%">
+        <div style="padding-left: 5%; padding-right: 5% ; margin-bottom:50px">
           <v-expansion-panels focusable>
             <v-expansion-panel>
                 <v-expansion-panel-header>Onde posso obter mais informações sobre o evento?</v-expansion-panel-header>
