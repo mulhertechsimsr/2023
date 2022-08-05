@@ -22,7 +22,7 @@
                 <p class="mr-2 ml-2">|</p>
                 <a href="/2019/" target="__blank"> 2019</a>
                 <p class="mr-2 ml-2">|</p>
-                <a href="/2018/" target="__blank"> 2018</a>
+                <a href="/2018/" target="__blank">  2018</a>
                 <p class="mr-2 ml-2">|</p>
                 <a href="/2017/" target="__blank"> 2017</a>
                 <p class="mr-2 ml-2">|</p>
