@@ -1,5 +1,5 @@
 <template>
-  <div style="margin-top:50px" id="3">
+  <div style="margin-top:50px" id="6">
       <v-container class="bloco">
         <div class="d-flex" style="justify-content:center; margin-top: 45px; margin-bottom:50px">
                 <h1 class="w-100" >PERGUNTAS FREQUENTES</h1>

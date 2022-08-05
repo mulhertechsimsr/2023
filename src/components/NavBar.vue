@@ -27,6 +27,13 @@
       </v-small>
       <v-small class="mr-5"  flat>
         <v-btn>
+        <a href="#6">
+          Perguntas Frequentes 
+        </a>
+        </v-btn>
+      </v-small>
+      <v-small class="mr-5"  flat>
+        <v-btn>
         <a href="#3">
           Código de Conduta 
         </a>
