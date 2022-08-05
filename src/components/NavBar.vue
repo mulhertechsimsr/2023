@@ -40,6 +40,13 @@
         </a>
         </v-btn>
       </v-small>
+      <v-small class="mr-5"  flat>
+        <v-btn>
+        <a href="">
+          Inscreva-se
+        </a>
+        </v-btn>
+      </v-small>
       </v-toolbar-items>
       </v-toolbar>
 </template>

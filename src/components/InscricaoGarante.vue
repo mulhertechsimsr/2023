@@ -60,6 +60,10 @@
     font-size: 22px;
   }
 
+  label.estilo {
+    height: 400px !important;
+    }
+
   p{
     font-size: 12px !important;
   }
@@ -89,6 +93,15 @@
   p{
     font-size: 14px !important;
   }
+  label.estilo {
+    height: 400px !important;
+    }
+}
+
+@media (min-width: 961px) {
+  label.estilo {
+    height: 400px !important;
+    }
 }
 
 .coluna{
@@ -129,7 +142,6 @@ p{
 }
 
 .card1 {
-    height: 400px;
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
@@ -138,7 +150,6 @@ p{
 }
 
 .card2 {
-    height: 400px;
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
@@ -147,7 +158,6 @@ p{
 }
 
 .card3 {
-    height: 400px;
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
