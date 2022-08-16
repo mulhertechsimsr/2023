@@ -9,6 +9,11 @@
         </div>
         <div class="d-flex mt-10 mb-10" style="justify-content: center; ">
             <v-btn class="botao mr-5" target="_blank"  href="https://www.eventbrite.com.br/e/mulher-tech-sim-senhor-2022-tickets-396687421757">INSCREVA-SE</v-btn>
+            <v-btn class="aparece botao d-flex" href="https://mulhertechsimsr.lojavirtualnuvem.com.br/" target="_blank" style="
+background: linear-gradient(180deg, #FF005E 0%, #31005A 100%);
+box-shadow: 9px 4px 4px rgba(0, 0, 0, 0.25);">
+        <span>VISITE NOSSA LOJA</span>
+      </v-btn>
         </div>
     </div>
   </div>
