@@ -53,6 +53,13 @@
         </a>
         </v-btn>
       </v-small>
+      <v-small class="mr-5"  flat>
+        <v-btn>
+        <a href="https://mulhertechsimsr.lojavirtualnuvem.com.br/" target="_blank">
+          Lojinha
+        </a>
+        </v-btn>
+      </v-small>
       </v-toolbar-items>
       </v-toolbar>
 </template>
