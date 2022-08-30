@@ -3,7 +3,6 @@
         <v-img
           alt="mulher tech"
           class="shrink"
-          contain
           src="../assets/img/header.svg"
           width="120vw"
         />

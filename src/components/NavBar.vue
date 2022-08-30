@@ -11,49 +11,56 @@
     </div>
     <v-spacer></v-spacer>
     <v-toolbar-items class="hidden-sm-and-down mt-4">
-      <v-small class="mr-5"  flat>
+      <v-small  flat>
         <v-btn>
           <a href="#1">
             Sobre o evento
           </a>
         </v-btn>
       </v-small>
-      <v-small class="mr-5"  flat>
+      <v-small  flat>
         <v-btn>
         <a href="#2">
           Programação
         </a>
         </v-btn>
       </v-small>
-      <v-small class="mr-5"  flat>
+      <v-small  flat>
         <v-btn>
         <a href="#6">
           Perguntas Frequentes 
         </a>
         </v-btn>
       </v-small>
-      <v-small class="mr-5"  flat>
+      <v-small  flat>
+        <v-btn>
+        <a href="#7">
+          Patrocinadores
+        </a>
+        </v-btn>
+      </v-small>
+      <v-small  flat>
         <v-btn>
         <a href="#3">
           Código de Conduta 
         </a>
         </v-btn>
       </v-small>
-      <v-small class="mr-5"  flat>
+      <v-small  flat>
         <v-btn>
         <a href="#4">
           Local
         </a>
         </v-btn>
       </v-small>
-      <v-small class="mr-5"  flat>
+      <v-small  flat>
         <v-btn>
         <a href="https://www.eventbrite.com.br/e/mulher-tech-sim-senhor-2022-tickets-396687421757" target="_blank">
           Inscreva-se
         </a>
         </v-btn>
       </v-small>
-      <v-small class="mr-5"  flat>
+      <v-small  flat>
         <v-btn>
         <a href="https://mulhertechsimsr.lojavirtualnuvem.com.br/" target="_blank">
           Lojinha
@@ -104,7 +111,7 @@
   height: 80px !important;
   position: fixed;
   width:100vw;
-  z-index: 2;
+  z-index: 3;
 }
 
 a{

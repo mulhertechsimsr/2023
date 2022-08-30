@@ -7,14 +7,17 @@
         <div class="d-flex" style="justify-content: center; ">
             <h1 class="titulo" style="width: 50%;">O MAIOR ENCONTRO DE MULHERES DE TI DA PARAÍBA ESTÁ DE VOLTA!!</h1>
         </div>
-        <div class="d-flex mt-10 mb-10" style="justify-content: center; ">
-            <v-btn class="botao mr-5" target="_blank"  href="https://www.eventbrite.com.br/e/mulher-tech-sim-senhor-2022-tickets-396687421757">INSCREVA-SE</v-btn>
-            <v-btn class="aparece botao d-flex" href="https://mulhertechsimsr.lojavirtualnuvem.com.br/" target="_blank" style="
-background: linear-gradient(180deg, #FF005E 0%, #31005A 100%);
-box-shadow: 9px 4px 4px rgba(0, 0, 0, 0.25);">
-        <span>VISITE NOSSA LOJA</span>
-      </v-btn>
-        </div>
+        <v-row class="mt-10 mb-10 mr-2 ml-2" style="justify-content: center; ">
+            <v-col cols="12" sm="12" md="3" lg="3" xl="3" style="width: 50%">
+              <v-btn style="width: 100%" class="botao mr-5" target="_blank"  href="https://www.eventbrite.com.br/e/mulher-tech-sim-senhor-2022-tickets-396687421757">INSCREVA-SE</v-btn>
+            </v-col>
+            <v-col cols="12" sm="12" md="3" lg="3" xl="3" style="width: 50%"> 
+              <v-btn  class="aparece botao d-flex" href="https://mulhertechsimsr.lojavirtualnuvem.com.br/" target="_blank" style="
+background: linear-gradient(180deg, #FF005E 0%, #31005A 100%); width: 100%">
+                <span>VISITE NOSSA LOJA</span>
+              </v-btn>
+            </v-col>
+        </v-row>
     </div>
   </div>
 </template>
@@ -42,7 +45,6 @@ box-shadow: 9px 4px 4px rgba(0, 0, 0, 0.25);">
 
 .botao{
   background: linear-gradient(180deg, #6605CB 0%, #160029 100%);
-  box-shadow: 9px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
   font-style: normal;
   font-weight: bold;
@@ -50,7 +52,8 @@ box-shadow: 9px 4px 4px rgba(0, 0, 0, 0.25);">
   display: flex;
   align-items: center;
   text-align: center;
-  padding: 30px 40px !important;
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
   color: #FFFFFF;
 }
 

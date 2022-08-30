@@ -9,6 +9,7 @@
       <Programacao/>
       <InscricaoGarante/>
       <PerguntasFrequentes/>
+      <Patrocinadores/>
       <CodigoConduta/>
       <Local/>
       <FooterEvento/>
@@ -29,6 +30,7 @@ import CodigoConduta from './components/CodigoConduta.vue';
 import InscricaoGarante from './components/InscricaoGarante.vue';
 import PerguntasFrequentes from './components/PerguntasFrequentes.vue';
 import FooterEvento from './components/Footer.vue';
+import Patrocinadores from './components/Patrocinadores.vue';
 
 export default {
   name: 'App',
@@ -45,6 +47,7 @@ export default {
     Local,
     InscricaoGarante,
     PerguntasFrequentes,
+    Patrocinadores,
   },
 
   data: () => ({
