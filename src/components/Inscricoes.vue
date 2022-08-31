@@ -6,10 +6,14 @@
         </div>
         <div class="d-flex" style="justify-content: center; ">
             <h1 class="titulo" style="width: 50%;">O MAIOR ENCONTRO DE MULHERES DE TI DA PARAÍBA ESTÁ DE VOLTA!!</h1>
-            <p> INSCRIÇÕES ESGOTADAS </p>
+            
+        </div>
+        <div class="d-flex mt-5" style="justify-content: center; ">
+            <h3> INSCRIÇÕES ESGOTADAS </h3>
+            
         </div>
         
-        <v-row class="mt-10 mb-10 mr-2 ml-2" style="justify-content: center; ">
+        <v-row class="mt-5 mb-10 mr-2 ml-2" style="justify-content: center; ">
             <v-col cols="12" sm="12" md="3" lg="3" xl="3" style="width: 50%"> 
               <v-btn  class="aparece botao d-flex" href="https://mulhertechsimsr.lojavirtualnuvem.com.br/" target="_blank" style="
 background: linear-gradient(180deg, #FF005E 0%, #31005A 100%); width: 100%">
