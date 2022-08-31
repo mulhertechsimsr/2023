@@ -6,30 +6,33 @@
         </div>
         <div class="d-flex" style="justify-content:center; margin-bottom:30px;">
            <template>
-            <v-timeline class="tamanho" align-top
-    :dense="$vuetify.breakpoint.smAndDown">
+            <v-timeline class="tamanho" :dense="$vuetify.breakpoint.smAndDown">
               <v-timeline-item class="mt-5" :color="item.color"
               v-for="item in items"
               :key="item">
                   <template v-slot:opposite>
                     <span :class="`headline font-weight-bold`" style="color:#D9CD2B;" >{{item.horario}}</span>
                   </template>
+                  <div class="headline font-weight-bold text-center" style="color:#D9CD2B;"  v-if="$vuetify.breakpoint.smAndDown">
+                      {{item.horario}}
+                  </div>
                   <template>
-                    <v-card class="elevation-2 card" :color="i.color" style="margin-top: 20px;" v-for="i in item.card" :key="i">
-                      <v-card-title class="titulo w-100">
-                        {{i.titulo}}
-                      <v-icon v-if="i.eventos" small class="icon" style="font-size:30px !important; margin-left: auto" v-on:click="exibir = !exibir">mdi-cursor-default-click-outline</v-icon> 
-                      </v-card-title>
-                      <v-card-text v-if="i.palestrante" class="descricao">{{i.palestrante}} <br> {{i.profissao}}</v-card-text>
-                      <v-timeline v-if="exibir && i.eventos" style="padding-bottom: 10px">
-                        <v-card class="elevation-2 card" :color="evento.color" style="margin-top: 10px; width:90%; margin-left: auto; margin-right: auto; margin-bottom: 20px" v-for="evento in i.eventos" :key="evento">
-                          <v-card-title class="titulo" >
-                            {{evento.titulo}}
+                      <v-card class="elevation-2 card" :color="i.color" style="margin-top: 20px;" v-for="i in item.card" :key="i">
+                          <v-card-title class="titulo w-100">
+                            {{i.titulo}}
+                          <v-icon v-if="i.eventos" small class="icon" style="font-size:30px !important; margin-left: auto" v-on:click="exibir = !exibir">mdi-cursor-default-click-outline</v-icon> 
                           </v-card-title>
-                          <v-card-text v-if="evento.palestrante" class="descricao">{{evento.palestrante}} <br> {{evento.profissao}}</v-card-text>
-                        </v-card>
-                      </v-timeline>
-                    </v-card>
+                        <v-card-text v-if="i.palestrante" class="descricao">{{i.palestrante}} <br> {{i.profissao}}</v-card-text>
+                        <v-timeline v-if="exibir && i.eventos" style="padding-bottom: 10px">
+                          <v-card class="elevation-2 card" :color="evento.color" style="margin-top: 10px; width:90%; margin-left: auto; margin-right: auto; margin-bottom: 20px" v-for="evento in i.eventos" :key="evento">
+                            <v-card-title class="titulo" >
+                              {{evento.titulo}}
+                            </v-card-title>
+                            <v-card-text v-if="evento.palestrante" class="descricao">{{evento.palestrante}} <br> {{evento.profissao}}</v-card-text>
+                          </v-card>
+                        </v-timeline>
+                      </v-card>
+                    
                   </template>
               </v-timeline-item>
             </v-timeline>
@@ -282,7 +285,7 @@
 
 <style>
 .v-timeline-item__divider , .v-timeline-item__opposite{
-  margin-top: 20px
+  margin-top: 45px
 }
 .titulo{
   color: #FFFFFF;

@@ -74,7 +74,7 @@
             </div>
             <v-row class="madrinha" style="justify-content: center; align-items: center;">
                 <v-col class="mt-5 mb-5" cols="6" sm="6" md="4" lg="4" xl="4" style="display:flex; justify-content: center;">
-                    <img src="../assets/img/patrocinio/Fretebras.png" alt="" style="width: 70%;"/>
+                    <img src="../assets/img/patrocinio/Fretebras.png" alt="" style="width: 80%;"/>
                 </v-col>
                 <v-col class="mt-5 mb-5" cols="6" sm="6" md="4" lg="4" xl="4" style="display:flex; justify-content: center;">
                     <img src="../assets/img/patrocinio/todos-empreendimento.png" alt="" style="width: 60%;"/>
