@@ -173,7 +173,7 @@
                   color: '#007065'
                 },
                 {
-                  titulo:'Análise de Dados',
+                  titulo:'Análise de Dados: um "idioma" que você precisa aprender!',
                   palestrante:'Thais Ramos',
                   profissao:"Minsait",
                   color: '#007065'
