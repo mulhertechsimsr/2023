@@ -55,15 +55,15 @@
       </v-small>
       <v-small  flat>
         <v-btn>
-        <a href="https://www.eventbrite.com.br/e/mulher-tech-sim-senhor-2022-tickets-396687421757" target="_blank">
-          Inscreva-se
+        <a href="https://mulhertechsimsr.lojavirtualnuvem.com.br/" target="_blank">
+          Lojinha
         </a>
         </v-btn>
       </v-small>
       <v-small  flat>
         <v-btn>
-        <a href="https://mulhertechsimsr.lojavirtualnuvem.com.br/" target="_blank">
-          Lojinha
+        <a href="/inscricao_atividades/">
+          Inscrição em Atividades
         </a>
         </v-btn>
       </v-small>
