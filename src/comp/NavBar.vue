@@ -1,5 +1,5 @@
 <template>
-  <v-toolbar class="nav hidden-sm-and-down">
+  <v-toolbar class="nav">
     <div class="d-flex align-center">
       <v-img
         alt="Vuetify Logo"
@@ -13,56 +13,7 @@
     <v-toolbar-items class="hidden-sm-and-down mt-4">
       <v-small  flat>
         <v-btn>
-          <a href="#1">
-            Sobre o evento
-          </a>
-        </v-btn>
-      </v-small>
-      <v-small  flat>
-        <v-btn>
-        <a href="#2">
-          Programação
-        </a>
-        </v-btn>
-      </v-small>
-      <v-small  flat>
-        <v-btn>
-        <a href="#6">
-          Perguntas Frequentes 
-        </a>
-        </v-btn>
-      </v-small>
-      <v-small  flat>
-        <v-btn>
-        <a href="#7">
-          Patrocinadores
-        </a>
-        </v-btn>
-      </v-small>
-      <v-small  flat>
-        <v-btn>
-        <a href="#3">
-          Código de Conduta 
-        </a>
-        </v-btn>
-      </v-small>
-      <v-small  flat>
-        <v-btn>
-        <a href="#4">
-          Local
-        </a>
-        </v-btn>
-      </v-small>
-      <v-small  flat>
-        <v-btn>
-        <a href="https://mulhertechsimsr.lojavirtualnuvem.com.br/" target="_blank">
-          Lojinha
-        </a>
-        </v-btn>
-      </v-small>
-      <v-small  flat>
-        <v-btn>
-        <router-link to="/inscricao_atividades">Inscrição em Atividades</router-link>
+          <router-link to="/">Pagina Inicial</router-link>
         </v-btn>
       </v-small>
       </v-toolbar-items>

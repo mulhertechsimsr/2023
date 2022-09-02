@@ -9,7 +9,7 @@
             
         </div>
         <div class="d-flex mt-5" style="justify-content: center; ">
-            <h3> INSCRIÇÕES ESGOTADAS </h3>
+            <h3 style="color:#D9CD2B"> INSCRIÇÕES ESGOTADAS </h3>
             
         </div>
         
