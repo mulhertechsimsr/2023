@@ -55,7 +55,7 @@ h1{
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
-  line-height: 68px;
+  line-height: 33px;
   text-align: left;
   margin-bottom:30px !important;
 }
