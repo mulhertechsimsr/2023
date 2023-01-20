@@ -54,7 +54,7 @@ h1{
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 64px;
+  font-size: 40px;
   line-height: 68px;
   text-align: left;
   margin-bottom:30px !important;
@@ -74,6 +74,7 @@ h1{
     margin-top: 80px !important;
     font-size: 30px !important;
     text-align: center !important;
+    line-height: 33px;
 }
 .title_italico{
   font-size: 30px !important;
