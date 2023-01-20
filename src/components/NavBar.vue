@@ -1,72 +1,28 @@
 <template>
-  <v-toolbar class="nav hidden-sm-and-down">
-    <div class="d-flex align-center">
-      <v-img
-        alt="Vuetify Logo"
-        class="shrink mr-2 mt-4"
-        contain
-        src="../assets/img/logo.svg"
-        width="60"
-      />
-    </div>
-    <v-spacer></v-spacer>
-    <v-toolbar-items class="hidden-sm-and-down mt-4">
-      <v-small  flat>
-        <v-btn>
-          <a href="#1">
-            Sobre o evento
+  <div class="nav container justify-content-center" style="padding-right:0px;">
+    <div class="row w-100">
+      <div class="col-lg-1 col-md-12 logo">
+        <img src="../assets/img/logo.svg" class="logo_tamanho" style="width:60px"/>
+      </div>
+      <div class="col nav_itens d-flex justify-content-center ">
+          <a href="#1" class="hidden-sm-and-down">
+            O evento
           </a>
-        </v-btn>
-      </v-small>
-      <v-small  flat>
-        <v-btn>
-        <a href="#2">
-          Programação
-        </a>
-        </v-btn>
-      </v-small>
-      <v-small  flat>
-        <v-btn>
-        <a href="#6">
-          Perguntas Frequentes 
-        </a>
-        </v-btn>
-      </v-small>
-      <v-small  flat>
-        <v-btn>
-        <a href="#7">
-          Patrocinadores
-        </a>
-        </v-btn>
-      </v-small>
-      <v-small  flat>
-        <v-btn>
-        <a href="#3">
-          Código de Conduta 
-        </a>
-        </v-btn>
-      </v-small>
-      <v-small  flat>
-        <v-btn>
-        <a href="#4">
-          Local
-        </a>
-        </v-btn>
-      </v-small>
-      <v-small  flat>
-        <v-btn>
-        <a href="https://mulhertechsimsr.lojavirtualnuvem.com.br/" target="_blank">
-          Lojinha
-        </a>
-        </v-btn>
-      </v-small>
-      <v-small  flat>
-        <v-btn>
-        <router-link to="/inscricao_atividades">Inscrição em Atividades</router-link>
-        </v-btn>
-      </v-small>
-      </v-toolbar-items>
-      </v-toolbar>
+          <a href="#6" class="hidden-sm-and-down">
+            Perguntas frequentes 
+          </a>
+          <a href="#7" class="hidden-sm-and-down">
+            Para empresas
+          </a>
+          <a href="#9" class="hidden-sm-and-down">
+            Contato
+          </a>
+      </div>
+      <div class=" col-2 d-flex justify-content-end" style="align-content:center;flex-wrap: wrap;">
+        <v-btn class=" hidden-sm-and-down primary_button" target="_blank" href="https://www.eventbrite.com.br/e/mulher-tech-sim-senhor-2023-tickets-508226849187">Inscreva-se</v-btn>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -93,32 +49,39 @@
 </script>
 
 <style>
-.theme--light.v-btn.v-btn--has-bg{
-    background-color: #f0ffff00;
-    border-radius: 100px;
-    color: white;
-    text-transform: none;
-    
-}
-.v-btn--is-elevated{
-    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 0%), 0px 2px 2px 0px rgb(0 0 0 / 0%), 0px 1px 5px 0px rgb(0 0 0 / 0%);
-}
-
-.nav{
-  background: linear-gradient(89.91deg, #0E1F4B 5.49%, #B71E87 100.75%) !important;
-  height: 80px !important;
-  position: fixed;
-  width:100vw;
-  z-index: 3;
-}
-
-a{
-  font-size: 14px;
+.primary_button{
+  background-color: #28A899 !important;
   color:white !important;
-  text-decoration: none;
+  padding: 13px 24px;
+  border-radius:8px;
+  text-transform: none;
 }
-.v-toolbar__items{
-  align-items: center;
-  height: 80px !important;
+.nav{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top:30px;
+}
+a{
+  color:black !important;
+  text-decoration: none;
+  margin: auto 20px;
+  display: flex;
+  justify-content: center;
+}
+.v-sheet.v-toolbar:not(.v-sheet--outlined){
+  box-shadow: none !important;
+}
+@media (max-width: 768px){
+  .logo{
+    display:flex;
+    justify-content: center;
+    padding:0px !important;
+  }
+  .logo_tamanho{
+    width:100px !important;
+  }
 }
 </style>

@@ -17,3 +17,7 @@ export default {
   }),
 };
 </script>
+
+<style scoped>
+@import'~bootstrap/dist/css/bootstrap.css'
+</style>

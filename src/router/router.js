@@ -1,5 +1,4 @@
 import Home from "@/views/Principal"
-import ÏnscricaoAtividades from "@/views/InscricaoAtividades"
 
 import VueRouter from 'vue-router'
 // 2. Define some routes
@@ -7,7 +6,6 @@ import VueRouter from 'vue-router'
 // We'll talk about nested routes later.
 const routes = [
   { path: '/', component: Home },
-  { path: '/inscricao_atividades', component: ÏnscricaoAtividades },
 ]
 
 // 3. Create the router instance and pass the `routes` option
