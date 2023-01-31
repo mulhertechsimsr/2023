@@ -13,7 +13,7 @@
         </p>
         <div class="d-flex centraliza_mobile">
           <v-btn class="primary_button mr-5" target="_blank" style="margin:0px;" href="https://www.eventbrite.com.br/e/mulher-tech-sim-senhor-2023-tickets-508226849187">Venha participar</v-btn>
-          <v-btn class="outline_button" style=" margin:0px;" target="_blank" href="https://www.eventbrite.com.br/e/mulher-tech-sim-senhor-2023-tickets-508226849187">Visite nossa loja</v-btn>
+          <v-btn class="outline_button" style=" margin:0px;" target="_blank" href="https://mulhertechsimsr.lojavirtualnuvem.com.br/">Visite nossa loja</v-btn>
         </div>
         </div>
         
