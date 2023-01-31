@@ -1,20 +1,20 @@
 <template>
   <div class="nav container justify-content-center" style="padding-right:0px;">
-    <div class="row w-100">
+    <div class="row w-100" style="margin-top:30px;">
       <div class="col-lg-1 col-md-12 logo">
-        <img src="../assets/img/logo.svg" class="logo_tamanho" style="width:60px"/>
+        <img src="../assets/img/logo.png" class="logo_tamanho" style="width:60px"/>
       </div>
       <div class="col nav_itens d-flex justify-content-center ">
-          <a href="#1" class="hidden-sm-and-down">
+          <a href="#1" class="hidden-sm-and-down text-decoration-none">
             O evento
           </a>
-          <a href="#6" class="hidden-sm-and-down">
-            Perguntas frequentes 
+          <a href="#2" class="hidden-sm-and-down text-decoration-none">
+            Diferenciais 
           </a>
-          <a href="#7" class="hidden-sm-and-down">
+          <a href="#3" class="hidden-sm-and-down text-decoration-none">
             Para empresas
           </a>
-          <a href="#9" class="hidden-sm-and-down">
+          <a href="#4" class="hidden-sm-and-down text-decoration-none">
             Contato
           </a>
       </div>
@@ -62,7 +62,6 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
-  margin-top:30px;
 }
 a{
   color:black !important;

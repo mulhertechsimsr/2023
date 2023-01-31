@@ -1,18 +1,19 @@
 <template>
-  <div class="container" style="align-content: center;
+  <div class="container header" style="align-content: center;
     flex-wrap: wrap;">
     <div class="row">
       <div class="col-1 hidden-sm-and-down"></div>
       <div class="col-lg-5 col-md-12 d-flex coluna-text" style="align-items:center">
         <div>
-          <h1>
+          <h1 class="title_header">
           O <span class="title_italico">maior</span> encontro de mulheres de tecnologia na Paraíba
         </h1>
         <p style="margin-bottom: 40px !important;">
           O Mulher Tech Sim Senhor está de volta! Dia <strong>04 de março de 2023</strong> teremos mais um evento. A temática dessa vez é a relação da <strong>tecnologia</strong> com o mundo das <strong>artes</strong>. Junte-se a nós!
         </p>
         <div class="d-flex centraliza_mobile">
-          <v-btn class="primary_button" target="_blank" style="margin:0px;" href="https://www.eventbrite.com.br/e/mulher-tech-sim-senhor-2023-tickets-508226849187">Venha participar</v-btn>
+          <v-btn class="primary_button mr-5" target="_blank" style="margin:0px;" href="https://www.eventbrite.com.br/e/mulher-tech-sim-senhor-2023-tickets-508226849187">Venha participar</v-btn>
+          <v-btn class="outline_button" style=" margin:0px;" target="_blank" href="https://www.eventbrite.com.br/e/mulher-tech-sim-senhor-2023-tickets-508226849187">Visite nossa loja</v-btn>
         </div>
         </div>
         
@@ -47,6 +48,20 @@
   text-transform: none;
 }
 
+.primary_button:hover{
+  text-decoration: none;
+}
+
+.outline_button:hover{
+  text-decoration: none;
+  background-color: #FF005E !important;
+  color: white !important;
+}
+
+.header{
+  padding-bottom: 50px;
+}
+
 .arte_home{
   height: 500px;
 }
@@ -70,7 +85,7 @@ h1{
 
 @media (max-width: 768px)
 {
-  h1{
+  h1.title_header{
     margin-top: 80px !important;
     font-size: 30px !important;
     text-align: center !important;
