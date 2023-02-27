@@ -1,6 +1,5 @@
 <template>
   <div>
-      <v-container class="bloco">
         <div class="d-flex" style="justify-content:center; margin-bottom:50px">
             <h1 class="titulo_tema"> Perguntas Frequentes</h1>
             </div>
@@ -93,10 +92,8 @@
                 </v-expansion-panel-content>
               </v-expansion-panel>
           </v-expansion-panels>
-          <a class="link mx-0 d-flex justify-content-start" style="margin-top:32px" target="_blank" download href="/files/codigo_conduta.pdf">Acesse aqui nosso código de conduta</a>
+          <a class="link mx-0 d-flex justify-content-start" style="margin-top:32px; padding-bottom:50px" target="_blank" download href="/files/codigo_conduta.pdf">Acesse aqui nosso código de conduta</a>
         </div>
-        
-    </v-container>
     
   </div>
 </template>

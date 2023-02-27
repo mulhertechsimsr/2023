@@ -141,7 +141,7 @@
             </div>
            </div>
            <div class="hidden">
-                <div class="row">
+                <div class="row w-100">
                     <v-sheet
                         class="mx-auto"
                         max-width="100%"
@@ -149,7 +149,7 @@
                     >
                         <v-slide-group
                         v-model="model"
-                        class="pa-4"
+                        
                         selected-class="bg-success"
                         
                         >
