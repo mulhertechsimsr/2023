@@ -9,7 +9,7 @@
                     outlined
                     @click="cota('madrinha')"
                     >
-                    <img src="@/assets/img/patrocinio/icon_madrinha.svg" class="mr-2">
+                    <img src="../assets/img/patrocinio/icon_madrinha.svg" class="mr-2">
                     Empresa Madrinha
                     </v-chip>
                     <v-chip
@@ -18,7 +18,7 @@
                     outlined
                     @click="cota('inspiradora')"
                     >
-                    <img src="@/assets/img/patrocinio/icon_inspiradora.svg" class="mr-2">
+                    <img src="../assets/img/patrocinio/icon_inspiradora.svg" class="mr-2">
                     Empresa Inspiradora
                     </v-chip>
                     <v-chip
@@ -27,7 +27,7 @@
                     outlined
                     @click="cota('realizadora')"
                     >
-                    <img src="@/assets/img/patrocinio/icon_realizadora.svg" class="mr-2">
+                    <img src="../assets/img/patrocinio/icon_realizadora.svg" class="mr-2">
                     Empresa Realizadora
                     </v-chip>
                     <v-chip
@@ -36,7 +36,7 @@
                     outlined
                     @click="cota('incentivadora')"
                     >
-                    <img src="@/assets/img/patrocinio/icon_incentivadora.svg" class="mr-2">
+                    <img src="../assets/img/patrocinio/icon_incentivadora.svg" class="mr-2">
                     Empresa Incentivadora
                     </v-chip>
                     <v-chip
@@ -45,7 +45,7 @@
                     outlined
                     @click="cota('colaboradora')"
                     >
-                    <img src="@/assets/img/patrocinio/icon_colaboradora.svg" class="mr-2">
+                    <img src="../assets/img/patrocinio/icon_colaboradora.svg" class="mr-2">
                     Empresa Colaboradora
                     </v-chip>
                 </div>
@@ -230,139 +230,139 @@
         realizadora:false,
         incentivadora:false,
         colaboradora:false,
-        banco_brasil: require("@/assets/img/patrocinio/banco_brasil_false.png"),
-        snet: require("@/assets/img/patrocinio/snet_false.png"),
-        phoebus: require("@/assets/img/patrocinio/phoebus_false.png"),
-        dock: require("@/assets/img/patrocinio/dock_false.png"),
-        sogo: require("@/assets/img/patrocinio/sogo_false.png"),
-        globo: require("@/assets/img/patrocinio/globo_false.png"),
-        alura: require("@/assets/img/patrocinio/alura_false.png"),
-        maxmilhas:require("@/assets/img/patrocinio/maxmilhas_false.png"),
-        google: require("@/assets/img/patrocinio/google_false.png"),
-        graficajb:require("@/assets/img/patrocinio/graficajb_false.png"),
-        saobraz: require("@/assets/img/patrocinio/saobraz_false.png"),
-        uniesp: require("@/assets/img/patrocinio/uniesp_false.png"),
-        ifpb: require("@/assets/img/patrocinio/ifpb_false.png"),
-        codata: require("@/assets/img/patrocinio/codata_false.png"),
-        ufpb: require("@/assets/img/patrocinio/ufpb_false.png"),
-        centro: require("@/assets/img/patrocinio/centro_convencoes_false.png"),
-        jp: require("@/assets/img/patrocinio/joao_pessoa_false.png"),
-        rebase: require("@/assets/img/patrocinio/rebase_false.png"),
-        fiabilite: require("@/assets/img/patrocinio/fiabillite_false.png"),
-        luizalabs: require("@/assets/img/patrocinio/luizalabs_false.png"),
-        vsoft: require("@/assets/img/patrocinio/vsoft_false.png"),
-        assespro: require("@/assets/img/patrocinio/assespro_false.png"),
+        banco_brasil: require("../assets/img/patrocinio/banco_brasil_false.png"),
+        snet: require("../assets/img/patrocinio/snet_false.png"),
+        phoebus: require("../assets/img/patrocinio/phoebus_false.png"),
+        dock: require("../assets/img/patrocinio/dock_false.png"),
+        sogo: require("../assets/img/patrocinio/sogo_false.png"),
+        globo: require("../assets/img/patrocinio/globo_false.png"),
+        alura: require("../assets/img/patrocinio/alura_false.png"),
+        maxmilhas:require("../assets/img/patrocinio/maxmilhas_false.png"),
+        google: require("../assets/img/patrocinio/google_false.png"),
+        graficajb:require("../assets/img/patrocinio/graficajb_false.png"),
+        saobraz: require("../assets/img/patrocinio/saobraz_false.png"),
+        uniesp: require("../assets/img/patrocinio/uniesp_false.png"),
+        ifpb: require("../assets/img/patrocinio/ifpb_false.png"),
+        codata: require("../assets/img/patrocinio/codata_false.png"),
+        ufpb: require("../assets/img/patrocinio/ufpb_false.png"),
+        centro: require("../assets/img/patrocinio/centro_convencoes_false.png"),
+        jp: require("../assets/img/patrocinio/joao_pessoa_false.png"),
+        rebase: require("../assets/img/patrocinio/rebase_false.png"),
+        fiabilite: require("../assets/img/patrocinio/fiabillite_false.png"),
+        luizalabs: require("../assets/img/patrocinio/luizalabs_false.png"),
+        vsoft: require("../assets/img/patrocinio/vsoft_false.png"),
+        assespro: require("../assets/img/patrocinio/assespro_false.png"),
         model: null,
         items:[
             {
                 name: "Google",
-                image: require("@/assets/img/patrocinio/google.png"),
-                cota: require("@/assets/img/patrocinio/madrinha.svg")
+                image: require("../assets/img/patrocinio/google.png"),
+                cota: require("../assets/img/patrocinio/madrinha.svg")
             },
             {
                 name: "Banco do Brasil",
-                image: require("@/assets/img/patrocinio/banco_brasil.png"),
-                cota: require("@/assets/img/patrocinio/madrinha.svg")
+                image: require("../assets/img/patrocinio/banco_brasil.png"),
+                cota: require("../assets/img/patrocinio/madrinha.svg")
             },
             {
                 name: "Dock",
-                image: require("@/assets/img/patrocinio/dock.png"),
-                cota: require("@/assets/img/patrocinio/inspiradora.svg")
+                image: require("../assets/img/patrocinio/dock.png"),
+                cota: require("../assets/img/patrocinio/inspiradora.svg")
             },
             {
                 name: "Globo",
-                image: require("@/assets/img/patrocinio/globo.png"),
-                cota: require("@/assets/img/patrocinio/inspiradora.svg")
+                image: require("../assets/img/patrocinio/globo.png"),
+                cota: require("../assets/img/patrocinio/inspiradora.svg")
             },
             {
                 name: "Assespro",
-                image: require("@/assets/img/patrocinio/assespro.png"),
-                cota: require("@/assets/img/patrocinio/realizadora.svg")
+                image: require("../assets/img/patrocinio/assespro.png"),
+                cota: require("../assets/img/patrocinio/realizadora.svg")
             },
             {
                 name: "LuizaLabs",
-                image: require("@/assets/img/patrocinio/luizalabs.png"),
-                cota: require("@/assets/img/patrocinio/realizadora.svg")
+                image: require("../assets/img/patrocinio/luizalabs.png"),
+                cota: require("../assets/img/patrocinio/realizadora.svg")
             },
             {
                 name: "Phoebus",
-                image: require("@/assets/img/patrocinio/phoebus.png"),
-                cota: require("@/assets/img/patrocinio/realizadora.svg")
+                image: require("../assets/img/patrocinio/phoebus.png"),
+                cota: require("../assets/img/patrocinio/realizadora.svg")
             },
             {
                 name: "Alura",
-                image: require("@/assets/img/patrocinio/alura.png"),
-                cota: require("@/assets/img/patrocinio/incentivadora.svg")
+                image: require("../assets/img/patrocinio/alura.png"),
+                cota: require("../assets/img/patrocinio/incentivadora.svg")
             },
             {
                 name: "Rebase",
-                image: require("@/assets/img/patrocinio/rebase.png"),
-                cota: require("@/assets/img/patrocinio/incentivadora.svg")
+                image: require("../assets/img/patrocinio/rebase.png"),
+                cota: require("../assets/img/patrocinio/incentivadora.svg")
             },
             {
                 name: "Snet",
-                image: require("@/assets/img/patrocinio/snet.png"),
-                cota: require("@/assets/img/patrocinio/colaboradora.svg")
+                image: require("../assets/img/patrocinio/snet.png"),
+                cota: require("../assets/img/patrocinio/colaboradora.svg")
             },
             {
                 name: "MaxMilhas",
-                image: require("@/assets/img/patrocinio/maxmilhas.png"),
-                cota: require("@/assets/img/patrocinio/colaboradora.svg")
+                image: require("../assets/img/patrocinio/maxmilhas.png"),
+                cota: require("../assets/img/patrocinio/colaboradora.svg")
             },
             {
                 name: "Vsoft",
-                image: require("@/assets/img/patrocinio/vsoft.png"),
-                cota: require("@/assets/img/patrocinio/colaboradora.svg")
+                image: require("../assets/img/patrocinio/vsoft.png"),
+                cota: require("../assets/img/patrocinio/colaboradora.svg")
             },
             {
                 name: "SOGO",
-                image: require("@/assets/img/patrocinio/sogo.png"),
-                cota: require("@/assets/img/patrocinio/colaboradora.svg")
+                image: require("../assets/img/patrocinio/sogo.png"),
+                cota: require("../assets/img/patrocinio/colaboradora.svg")
             },
             {
                 name: "Fiabilité",
-                image: require("@/assets/img/patrocinio/fiabillite.png"),
-                cota: require("@/assets/img/patrocinio/colaboradora.svg")
+                image: require("../assets/img/patrocinio/fiabillite.png"),
+                cota: require("../assets/img/patrocinio/colaboradora.svg")
             },
             {
                 name: "São Braz",
-                image: require("@/assets/img/patrocinio/saobraz.png"),
-                cota: require("@/assets/img/patrocinio/apoio.svg")
+                image: require("../assets/img/patrocinio/saobraz.png"),
+                cota: require("../assets/img/patrocinio/apoio.svg")
             },
             {
                 name: "Uniesp",
-                image: require("@/assets/img/patrocinio/uniesp.png"),
-                cota: require("@/assets/img/patrocinio/apoio.svg")
+                image: require("../assets/img/patrocinio/uniesp.png"),
+                cota: require("../assets/img/patrocinio/apoio.svg")
             },
             {
                 name: "Gráfica JB",
-                image: require("@/assets/img/patrocinio/graficajb.png"),
-                cota: require("@/assets/img/patrocinio/apoio.svg")
+                image: require("../assets/img/patrocinio/graficajb.png"),
+                cota: require("../assets/img/patrocinio/apoio.svg")
             },
             {
                 name: "UFPB",
-                image: require("@/assets/img/patrocinio/ufpb.png"),
-                cota: require("@/assets/img/patrocinio/apoio.svg")
+                image: require("../assets/img/patrocinio/ufpb.png"),
+                cota: require("../assets/img/patrocinio/apoio.svg")
             },
             {
                 name: "ifpb",
-                image: require("@/assets/img/patrocinio/ifpb.png"),
-                cota: require("@/assets/img/patrocinio/apoio.svg")
+                image: require("../assets/img/patrocinio/ifpb.png"),
+                cota: require("../assets/img/patrocinio/apoio.svg")
             },
             {
                 name: "Codata",
-                image: require("@/assets/img/patrocinio/codata.png"),
-                cota: require("@/assets/img/patrocinio/apoio.svg")
+                image: require("../assets/img/patrocinio/codata.png"),
+                cota: require("../assets/img/patrocinio/apoio.svg")
             },
             {
                 name: "PMJP",
-                image: require("@/assets/img/patrocinio/joao_pessoa.png"),
-                cota: require("@/assets/img/patrocinio/apoio.svg")
+                image: require("../assets/img/patrocinio/joao_pessoa.png"),
+                cota: require("../assets/img/patrocinio/apoio.svg")
             },
             {
                 name: "Centro de Convenções",
-                image: require("@/assets/img/patrocinio/centro_convencoes.png"),
-                cota: require("@/assets/img/patrocinio/apoio.svg")
+                image: require("../assets/img/patrocinio/centro_convencoes.png"),
+                cota: require("../assets/img/patrocinio/apoio.svg")
             },
         ],
         
