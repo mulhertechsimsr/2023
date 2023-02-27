@@ -217,6 +217,7 @@ import Footer from '@/components/Footer.vue';
 import Faq from '@/components/Faq.vue';
 import Patrocinio from '@/components/Patrocinio.vue'
 
+
 export default {
   name: 'PaginaPrincipal',
 
