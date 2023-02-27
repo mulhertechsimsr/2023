@@ -426,7 +426,7 @@
     display: none;
 }
 .hidden2{
-    display: flex;
+    display: block;
 }
 
 @media (max-width: 600px) {
