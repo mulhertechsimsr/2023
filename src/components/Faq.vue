@@ -3,7 +3,8 @@
         <div class="d-flex" style="justify-content:center; margin-bottom:50px">
             <h1 class="titulo_tema"> Perguntas Frequentes</h1>
             </div>
-        <div style="padding-left: 5%; padding-right: 5% ;">
+        <div class=" justify-content-center d-flex" style="padding-left: 5%; padding-right: 5% ; flex-direction: column; align-items: center">
+            <div class="w-50">
           <v-expansion-panels focusable>
             <v-expansion-panel>
                 <v-expansion-panel-header>Onde posso obter mais informações sobre o evento?</v-expansion-panel-header>
@@ -92,6 +93,7 @@
                 </v-expansion-panel-content>
               </v-expansion-panel>
           </v-expansion-panels>
+        </div>
           <a class="link mx-0 d-flex justify-content-start" style="margin-top:32px; padding-bottom:50px" target="_blank" download href="/files/codigo_conduta.pdf">Acesse aqui nosso código de conduta</a>
         </div>
     
