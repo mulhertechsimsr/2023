@@ -14,6 +14,9 @@
           <a href="#3" class="hidden-sm-and-down text-decoration-none">
             Para empresas
           </a>
+          <a href="#5" class="hidden-sm-and-down text-decoration-none">
+            Parcerias
+          </a>
           <a href="#4" class="hidden-sm-and-down text-decoration-none">
             Contato
           </a>

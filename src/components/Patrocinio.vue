@@ -1,5 +1,5 @@
 <template>
-    <div class="patrocinio" style="padding-top: 100px">
+    <div id="5" class="patrocinio" style="padding-top: 100px">
         <div>
             <p class="title_patrocinio">Veja nossas parceiras</p>
             <div class="hidden2">
@@ -213,6 +213,11 @@
                     @mouseover='jp = require("../assets/img/patrocinio/joao_pessoa.png")'
                     @mouseout="jp = require('../assets/img/patrocinio/joao_pessoa_false.png')" width="80%"/>
                 </div>
+                <div class="col-md-2 mx-4 d-flex justify-content-center">
+                        <img :src="codata"
+                        @mouseover='codata = require("../assets/img/patrocinio/codata.png")'
+                        @mouseout="codata = require('../assets/img/patrocinio/codata_false.png')" width="80%"/>
+                    </div>
            </div>
            
         </div>
