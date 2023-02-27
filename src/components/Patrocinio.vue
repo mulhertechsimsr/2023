@@ -175,7 +175,7 @@
                 </div>
             </div>
            <p class="title_patrocinio hidden2" style="margin-top: 140px;">Veja nossos apoios</p>
-           <div class="row d-flex hidden2 align-items-center justify-content-center mx-5">
+           <div class="row hidden2  align-items-center justify-content-center mx-5">
                 <div class="col-md-1 align-items-center mx-4 d-flex justify-content-center">
                     <img :src="graficajb"
                     @mouseover='graficajb = require("../assets/img/patrocinio/graficajb.png")'
@@ -426,7 +426,7 @@
     display: none;
 }
 .hidden2{
-    display: block;
+    display: flex;
 }
 
 @media (max-width: 600px) {
