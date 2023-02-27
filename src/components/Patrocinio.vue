@@ -64,9 +64,9 @@
                     </div>
                     <div class="col-md-2 d-flex justify-content-center">
                         <img v-if="!realizadora" :src="phoebus"
-                        @mouseover='phoebus = require("../assets/img/patrocinio/phoebus.png")'
+                        @mouseover='phoebus = require("../assets/img/patrocinio/phoebus1.png")'
                         @mouseout="phoebus = require('../assets/img/patrocinio/phoebus_false.png')" width="250"/>
-                        <img v-if="realizadora" src='../assets/img/patrocinio/phoebus.png'  width="250"/>
+                        <img v-if="realizadora" src='../assets/img/patrocinio/phoebus1.png'  width="250"/>
                     </div>
                     <div class="col-md-3 d-flex justify-content-center">
                         <img v-if="!inspiradora" :src="dock"
@@ -286,7 +286,7 @@
             },
             {
                 name: "Phoebus",
-                image: require("../assets/img/patrocinio/phoebus.png"),
+                image: require("../assets/img/patrocinio/phoebus1.png"),
                 cota: require("../assets/img/patrocinio/realizadora.svg")
             },
             {
