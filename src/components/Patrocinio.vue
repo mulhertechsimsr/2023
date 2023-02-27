@@ -103,8 +103,8 @@
                     <div class="col-md-3 d-flex justify-content-center">
                         <img v-if="!madrinha" :src="google"
                         @mouseover='google = require("../assets/img/patrocinio/google.png")'
-                        @mouseout="google = require('../assets/img/patrocinio/google_false.png')" width="380"/>
-                        <img v-if="madrinha" src='../assets/img/patrocinio/google.png'  width="380"/>
+                        @mouseout="google = require('../assets/img/patrocinio/google_false.png')" width="300"/>
+                        <img v-if="madrinha" src='../assets/img/patrocinio/google.png'  width="300"/>
                     </div>
             </div>
             <div class="row mx-5 justify-content-center" style="align-items: center; margin-top: 30px;">
