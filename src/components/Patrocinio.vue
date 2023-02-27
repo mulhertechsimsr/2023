@@ -144,7 +144,7 @@
                 <div class="row">
                     <v-sheet
                         class="mx-auto"
-                        max-width="350"
+                        max-width="100%"
                         style="background: rgba(255, 0, 0, 0);"
                     >
                         <v-slide-group
