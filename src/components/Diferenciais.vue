@@ -165,7 +165,7 @@
 }
 
 .subtitle_card{
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;

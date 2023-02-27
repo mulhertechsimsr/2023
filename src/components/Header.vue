@@ -65,15 +65,7 @@
 .arte_home{
   height: 500px;
 }
-h1{
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 33px;
-  text-align: left;
-  margin-bottom:30px !important;
-}
+
 .title_italico{
   font-family: 'Inter', sans-serif;
   font-style: italic;
@@ -81,6 +73,7 @@ h1{
   font-size: 40px;
   line-height: 34px;
 }
+
 
 
 @media (max-width: 768px)

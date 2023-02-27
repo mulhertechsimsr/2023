@@ -5,6 +5,9 @@
         <NavBar/>
         <Header/>
       </div>
+      <div>
+        <!-- <Cronometro/> -->
+      </div>
       <div class="sessao-2">
           <Tema class="background_tema"/>
         </div>
@@ -14,6 +17,8 @@
       </div>
       
       <Sobre/>
+      <Faq class="background_escuro" />
+      <Patrocinio/>
       <Parceria/>
       <Footer/> 
       
@@ -29,6 +34,12 @@
     background-size: cover !important;
     background: #EFF8EA;
     
+}
+
+.background_escuro{
+    width: 100vw;
+    background-size: cover !important;
+    background: rgba(189, 229, 207, 0.6);
 }
 
 
@@ -52,6 +63,14 @@
   background: url(../assets/img/center-right-evento2.png) center right no-repeat,
               url(../assets/img/center-right-evento.png) center right no-repeat;
   background-position: 100% 30%, 100% 50%;
+}
+
+h1{
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    text-align: left;
+    margin-bottom: 30px!important;
 }
 
 @media (max-width: 768px)
@@ -194,6 +213,9 @@ import Diferenciais from '@/components/Diferenciais.vue';
 import Sobre from '@/components/Sobre.vue'
 import Parceria from '@/components/Parceria.vue';
 import Footer from '@/components/Footer.vue';
+// import Cronometro from '@/components/Cronometro.vue';
+import Faq from '@/components/Faq.vue';
+import Patrocinio from '@/components/Patrocinio.vue'
 
 export default {
   name: 'PaginaPrincipal',
@@ -206,7 +228,10 @@ export default {
     Diferenciais,
     Sobre,
     Parceria,
-    Footer
+    Footer,
+    // Cronometro,
+    Faq,
+    Patrocinio
 },
 
   data: () => ({

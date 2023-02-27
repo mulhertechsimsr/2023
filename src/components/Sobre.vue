@@ -1,5 +1,5 @@
 <template>
-    <div style="padding-bottom: 100px; padding-top: 100px;" class="sobre">
+    <div style="padding-bottom: 100px;" class="sobre">
         <div class="container diferenciais">
             <h1 class="titulo_tema pt-0"> Sobre o Mulher Tech</h1>
             <div class="container">
@@ -132,7 +132,7 @@
     url(../assets/img/top_left_sobre.png) top left no-repeat,
     url(../assets/img/top_right_sobre.png) top right no-repeat, 
     url(../assets/img/top_right_sobre2.png) top right no-repeat,
-    rgba(189, 229, 207, 0.6);
+    ;
     background-position: 0% 95%, 0% 5%, 100% 5%, 100% 10%;
 }
 
