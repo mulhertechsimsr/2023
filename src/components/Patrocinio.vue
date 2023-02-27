@@ -425,9 +425,7 @@
 .hidden{
     display: none;
 }
-.hidden2{
-    display: block;
-}
+
 
 @media (max-width: 600px) {
   .hidden{
