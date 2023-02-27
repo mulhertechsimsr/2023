@@ -111,8 +111,8 @@
                     <div class="col-md-2 d-flex justify-content-center">
                         <img v-if="!incentivadora" :src="rebase"
                         @mouseover='rebase = require("../assets/img/patrocinio/rebase.png")'
-                        @mouseout="rebase = require('../assets/img/patrocinio/rebase_false.png')" width="30%"/>
-                        <img v-if="incentivadora" src='../assets/img/patrocinio/rebase.png'  width="30%"/>
+                        @mouseout="rebase = require('../assets/img/patrocinio/rebase_false.png')" width="50%"/>
+                        <img v-if="incentivadora" src='../assets/img/patrocinio/rebase.png'  width="50%"/>
                     </div>
                     <div class="col-md-2 d-flex justify-content-center">
                         <img v-if="!colaboradora" :src="fiabilite"
