@@ -27,7 +27,7 @@
                                     <v-card-item class="row justify-conten-between align-items-center">
                                         <div class="col-md-10">
                                             <div class="titulo_horario">
-                                                03/04/2023 - 14 horas
+                                                04/03/2023 - 14 horas
                                             </div>
                                             <div id="insc">
                                                 Design Thiking: Ouse transformar
