@@ -48,7 +48,7 @@
                                             <div id="insc">
                                                 Code Game
                                             </div>
-                                            <a class="subtitulo_card justify-content-start pl-0" target="_blank" download href="../assets/img/patrocinio/Girls Code Game - Regulamento.pdf">
+                                            <a class="subtitulo_card justify-content-start pl-0" target="_blank" download href="/files/Girls Code Game - Regulamento.pdf">
                                                 <p class="link_reg mb-0 mr-1">Acesse aqui o regulamento </p>
                                                 <span class="material-symbols-outlined text-decoration-none" style="font-size: 14px; color: #9747FF !important;">
                                                 ungroup
