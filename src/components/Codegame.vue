@@ -10,24 +10,27 @@
                         <div class="col-md-2 logo">
                             <img src="../assets/img/logo_boneca.png" class="logo_tamanho" width="100%"/>
                         </div> 
+                        <div class="col-md-2">
+                            
+                        </div>
+                        <div class="col-md-2">
+                            <img src="../assets/img/patrocinio/alura.svg" width="100%"/>
+                        </div>
                     </div>
                     <div class="row align-items-center justify-content-center">
-                        <div class="col-md-2">
-                                
-                            </div><div class="col-md-8 d-flex justify-content-center">
-                            
-                            <p class="titulo_inscricao d-flex justify-content-center" style="text-align: center;">Inscrição</p>
-                            <div class="row">
-                            <div class="col-md-10 d-flex justify-content-center">
-                                <p class="subtitulo_inscricao ml-5" style="text-align: center;">Atividades</p>
-                            </div>
-                            <div class="col-md-1">
+                        <div class="col-md-8">
+                        <p class="titulo_inscricao d-flex justify-content-center">Inscrição</p>
+                        <div class="row">
+                        <div class="col-md-1 d-flex justify-content-center align-items-center">
+                            <router-link class="voltar" to="/">Voltar</router-link>
+                        </div>
+                        <div class="col-md-10 d-flex justify-content-center">
+                            <p class="subtitulo_inscricao">Atividades</p>
+                        </div>
+                        <div class="col-md-1">
 
-                            </div>
+                        </div>
                     </div> 
-                </div>
-                <div class="col-md-2">
-                    <img src="../assets/img/patrocinio/alura.svg" width="100%"/>
                 </div>
             
 
