@@ -416,6 +416,17 @@
                         </v-expansion-panel>
                     </v-expansion-panels>
                 </div>
+                <div class="mt-5 encerramento " style="padding-top: 3%;">
+                    <v-card variant="outlined" id="card_atividade" style="position:relative;">
+                        <v-card-item class="row align-items-center justify-content-between margem">
+                            <div>
+                                <div class="titulo_card" >
+                                    Encerramento
+                                </div>
+                            </div>
+                        </v-card-item>
+                    </v-card>
+                </div>
             </div>
             
       
@@ -682,6 +693,30 @@
     padding: 10px;
     position: absolute;	
     content:"08:00 - 09:00";
+    top:0
+  }
+  .encerramento{
+        position: relative;
+    }
+  .encerramento::after{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 160%;
+    /* or 19px */
+
+    letter-spacing: 0.4px;
+
+    /* Grey/Grey-900 */
+
+    color: #1D1B1F;
+    background: #EFF8EA;
+    border: 1px solid rgba(40, 168, 153, 0.31);
+    border-radius: 8px;
+    padding: 10px;
+    position: absolute;	
+    content:"17:20 - 17:30";
     top:0
   }
   .titulo_card{
