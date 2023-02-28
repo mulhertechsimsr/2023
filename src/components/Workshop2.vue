@@ -119,14 +119,14 @@ import router from '../router/router'
             }
         },
         async inscrever(){
-            db.collection("workshop1").get().then((querySnapshot) => {
+            db.collection("workshop2").get().then((querySnapshot) => {
                 querySnapshot.forEach((doc) => {
                     // doc.data() is never undefined for query doc snapshots
                     this.Users.push(doc.data())
                 });
             });
             if (this.Users.length <= 30){
-                db.collection('workshop1').add(this.user).then(() => {
+                db.collection('workshop2').add(this.user).then(() => {
                     Swal.fire({
                         icon: 'success',
                         title: 'Parabéns! Sua inscrição foi concluída com sucesso!',
