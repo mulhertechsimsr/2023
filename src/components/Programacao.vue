@@ -163,8 +163,8 @@
                                                 Laysa Belici | Engenheira de dados @ Energisa
                                             </div>
                                         </div>
-                                        <div to="/work1" target="_blank" id="inscricao" style="color:white !important; padding-left: 16px;">
-                                            <v-btn class="btn_insc" id="inscricao">Inscreva-se</v-btn>
+                                        <div  id="inscricao" style="color:white !important; padding-left: 16px;">
+                                            <v-btn to="/inscricao" target="_blank" class="btn_insc" id="inscricao">Inscreva-se</v-btn>
                                         </div>
                                         
                                         
@@ -180,8 +180,8 @@
                                                 Micheline Barroso e Lívia Vasconcelos | Fundadoras @ Inova-te
                                             </div>
                                         </div>
-                                        <div to="/work2" target="_blank" id="inscricao" style="color:white !important; padding-left: 16px;">
-                                            <v-btn class="btn_insc" id="inscricao">Inscreva-se</v-btn>
+                                        <div  id="inscricao" style="color:white !important; padding-left: 16px;">
+                                            <v-btn to="/inscricao" target="_blank" class="btn_insc" id="inscricao">Inscreva-se</v-btn>
                                         </div>
                                         
                                         
