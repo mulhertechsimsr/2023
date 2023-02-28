@@ -12,8 +12,8 @@
           O Mulher Tech Sim Senhor está de volta! Dia <strong>04 de março de 2023</strong> teremos mais um evento. A temática dessa vez é a relação da <strong>tecnologia</strong> com o mundo das <strong>artes</strong>. Junte-se a nós!
         </p>
         <div class="d-flex centraliza_mobile">
-          <v-btn class="primary_button mr-5" target="_blank" style="margin:0px;" href="https://www.eventbrite.com.br/e/mulher-tech-sim-senhor-2023-tickets-508226849187">Venha participar</v-btn>
-          <v-btn class="outline_button" style=" margin:0px;" target="_blank" href="https://mulhertechsimsr.lojavirtualnuvem.com.br/">Visite nossa loja</v-btn>
+          <!-- <v-btn class="primary_button mr-5" target="_blank" style="margin:0px;" href="https://www.eventbrite.com.br/e/mulher-tech-sim-senhor-2023-tickets-508226849187">Venha participar</v-btn> -->
+          <v-btn class="primary_button" style=" margin:0px;" target="_blank" href="https://mulhertechsimsr.lojavirtualnuvem.com.br/">Visite nossa loja</v-btn>
         </div>
         </div>
         

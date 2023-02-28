@@ -8,21 +8,24 @@
           <a href="#1" class="hidden-sm-and-down text-decoration-none">
             O evento
           </a>
-          <a href="#2" class="hidden-sm-and-down text-decoration-none">
-            Diferenciais 
-          </a>
-          <a href="#3" class="hidden-sm-and-down text-decoration-none">
-            Para empresas
-          </a>
-          <a href="#5" class="hidden-sm-and-down text-decoration-none">
-            Parcerias
-          </a>
-          <a href="#4" class="hidden-sm-and-down text-decoration-none">
-            Contato
+          <a href="#7" class="hidden-sm-and-down text-decoration-none">
+            Perguntas Frequentes
           </a>
           <a href="#6" class="hidden-sm-and-down text-decoration-none">
             Programação
           </a>
+          <a href="#2" class="hidden-sm-and-down text-decoration-none">
+            Diferenciais 
+          </a>
+          <!-- <a href="#3" class="hidden-sm-and-down text-decoration-none">
+            Para empresas
+          </a> -->
+          <a href="#5" class="hidden-sm-and-down text-decoration-none">
+            Parcerias
+          </a>
+          <!-- <a href="#4" class="hidden-sm-and-down text-decoration-none">
+            Contato
+          </a> -->
       </div>
       <div class=" col-2 d-flex justify-content-end" style="align-content:center;flex-wrap: wrap;">
         <v-btn class=" hidden-sm-and-down primary_button" target="_blank" href="https://www.eventbrite.com.br/e/mulher-tech-sim-senhor-2023-tickets-508226849187">Inscreva-se</v-btn>

@@ -9,17 +9,18 @@
         <!-- <Cronometro/> -->
       </div>
       <div class="sessao-2">
-          <Tema class="background_tema"/>
-        </div>
+        <Tema class="background_tema"/>
+      </div>
+      <Programacao class="background_escuro"/>
       <div class="sessao-3">
         <Evento/>
         <Diferenciais />
       </div>
-      <Programacao class="background_escuro"/>
+      
       <Sobre/>
       <Faq class="background_escuro" />
       <Patrocinio/>
-      <Parceria/>
+      <!-- <Parceria/> -->
       <Footer/> 
       
     </v-main>
@@ -211,7 +212,7 @@ import Tema from '@/components/Tema.vue';
 import Evento from '@/components/Evento.vue'
 import Diferenciais from '@/components/Diferenciais.vue';
 import Sobre from '@/components/Sobre.vue'
-import Parceria from '@/components/Parceria.vue';
+// import Parceria from '@/components/Parceria.vue';
 import Footer from '@/components/Footer.vue';
 // import Cronometro from '@/components/Cronometro.vue';
 import Faq from '@/components/Faq.vue';
@@ -229,7 +230,7 @@ export default {
     Evento,
     Diferenciais,
     Sobre,
-    Parceria,
+    // Parceria,
     Footer,
     // Cronometro,
     Faq,

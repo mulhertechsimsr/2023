@@ -3,7 +3,7 @@
         <div class="container tema">
             <h1 class="titulo_tema"> Arte e tecnologia</h1>
             <p class="subtitulo mb-0">De que forma arte e tecnologia se complementam? Como uma pode influenciar a outra? Este é o tema que iremos debater nesta edição!</p>
-            <div class="row" style="margin-top:80px; padding-bottom: 150px;">
+            <div class="row" style="margin-top:80px; padding-bottom: 50px;">
                 <div class="col-md-6 col-lg-3 coluna">
                     <h2 class="titulo_dois">04</h2>
                     <h3 class="titulo_tres">Trilhas</h3>

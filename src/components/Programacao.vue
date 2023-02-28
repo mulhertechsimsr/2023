@@ -1,6 +1,6 @@
 <template>
     <div id="6" style="padding-bottom: 60px;">
-            <div class="d-flex" style="justify-content:center; margin-bottom:50px; flex-direction: column">
+            <div class="d-flex" style="justify-content:center; margin-bottom:50px; flex-direction: column;">
                 <div class="container">
                     <h1 class="titulo_tema mb-2"> Programação</h1>
                 <p class="subtitulo mt-0" style="text-align:center">Confira as atrações do evento e não deixe de se inscrever nas atividades </p>
@@ -94,11 +94,20 @@
                 </div>
             </div>
             <div class="container largura" v-if="tarde">
+                <div class="foto mt-5" style="padding-top: 3%;">
+                    <v-card variant="outlined" id="card_atividade" style="position:relative">
+                        <v-card-item>
+                                <div class="titulo_card">
+                                    Foto Oficial
+                                </div>
+                            </v-card-item>
+                    </v-card>
+                </div>
                 <div class="atividades mt-5" style="padding-top: 3%;">
                     <v-card variant="outlined" id="card_atividade" style="position:relative">
                         <v-card-item>
                                 <div class="titulo_card">
-                                    Início das atividades
+                                    Início das atividades (em paralelo)
                                 </div>
                             </v-card-item>
                     </v-card>
@@ -110,9 +119,9 @@
                                 <div class="titulo_card" style="padding-top: 16px ">
                                     Code Game
                                 </div>
-                                <div class="subtitulo_card">
+                                <!-- <div class="subtitulo_card">
                                     Apoio @ Alura
-                                </div>
+                                </div> -->
                             </div>
                             <!-- <v-btn to="/inscricao" target="_blank" id="inscricao" style="color:white !important; margin-right: 16px;">Inscreva-se</v-btn> -->
                             
@@ -165,7 +174,7 @@
                                     <v-card-item class="row w-100 align-items-center justify-content-between">
                                         <div class="col-md-8">
                                             <div class="titulo_card titulo_workshop" style="padding-top: 16px ">
-                                                Design Thiking - Ouse transformar
+                                                Design Thiking: Ouse transformar
                                             </div>
                                             <div class="subtitulo_card">
                                                 Micheline Barroso e Lívia Vasconcelos | Fundadoras @ Inova-te
@@ -201,23 +210,23 @@
                                     <v-card-item class="d-flex align-items-center justify-content-between">
                                         <div>
                                             <div class="titulo_card" style="padding-top: 16px ">
-                                                O que o Design tem a ver com isso?
+                                                Psicologia atrelada a produtos digitais: Como utilizar conceitos de psicologia no dia a dia em UX e UI
                                             </div>
                                             <div class="subtitulo_card">
-                                                Danusa Neiva | UX Designer
+                                                Gabriela Ozório | Product Designer Sênior @ PicPay
                                             </div>
                                         </div>
                                         
                                     </v-card-item>
                                 </v-card>
-                                <v-card variant="outlined" id="card_atividade" class="mt-5" style="position:relative; border: 1px solid rgba(255, 0, 94, 0.24);" >
+                                <v-card variant="outlined" class="mt-5" id="card_atividade" style="position:relative; border: 1px solid rgba(255, 0, 94, 0.24);" >
                                     <v-card-item class="d-flex align-items-center justify-content-between">
                                         <div>
                                             <div class="titulo_card" style="padding-top: 16px ">
-                                                Psicologia atrelada a produtos digitais: Como utilizar conceitos de psicologia no dia a dia em UX e UI
+                                                O que o Design tem a ver com isso?
                                             </div>
                                             <div class="subtitulo_card">
-                                                Gabriela Ozório | Product Designer Sênior @ PicPay
+                                                Danuza Neiva | UX Designer
                                             </div>
                                         </div>
                                         
@@ -372,21 +381,8 @@
                             </template>
                             </v-expansion-panel-header>
                             <v-expansion-panel-content>
-                                <v-card variant="outlined" id="card_atividade" style="position:relative; border: 1px solid rgba(255, 0, 94, 0.24);" >
-                                    <v-card-item class="d-flex align-items-center justify-content-between">
-                                        <div>
-                                            <div class="titulo_card" style="padding-top: 16px ">
-                                                Do Plim ao Play: Uma trajetória de sucesso unindo Arte e Tecnologia
-                                            </div>
-                                            <div class="subtitulo_card">
-                                                Laís Layme | Agile Coach @ Globo Play
-                                            </div>
-                                        </div>
-                                        
-                                    </v-card-item>
-                                </v-card>
                                 
-                                <v-card variant="outlined" id="card_atividade" class="mt-5" style="position:relative; border: 1px solid rgba(255, 0, 94, 0.24);" >
+                                <v-card variant="outlined" id="card_atividade" style="position:relative; border: 1px solid rgba(255, 0, 94, 0.24);" >
                                     <v-card-item class="d-flex align-items-center justify-content-between">
                                         <div>
                                             <div class="titulo_card" style="padding-top: 16px ">
@@ -412,9 +408,55 @@
                                         
                                     </v-card-item>
                                 </v-card>
+                                <v-card variant="outlined" id="card_atividade" class="mt-5" style="position:relative; border: 1px solid rgba(255, 0, 94, 0.24);" >
+                                    <v-card-item class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <div class="titulo_card" style="padding-top: 16px ">
+                                                Do Plim ao Play: Uma trajetória de sucesso unindo Arte e Tecnologia
+                                            </div>
+                                            <div class="subtitulo_card">
+                                                Laís Layme | Agile Coach @ Globo Play
+                                            </div>
+                                        </div>
+                                        
+                                    </v-card-item>
+                                </v-card>
                             </v-expansion-panel-content>
                         </v-expansion-panel>
                     </v-expansion-panels>
+                </div>
+                <div class="mt-5 sorteio" style="padding-top: 3%;">
+                    <v-card variant="outlined" id="card_atividade" style="position:relative;">
+                        <v-card-item class="row align-items-center justify-content-between margem">
+                            <div>
+                                <div class="titulo_card" >
+                                    Sorteios
+                                </div>
+                            </div>
+                        </v-card-item>
+                    </v-card>
+                </div>
+                <div class="mt-5 madrinha " style="padding-top: 3%;">
+                    <v-card variant="outlined" id="card_atividade" style="position:relative;">
+                        <v-card-item class="row align-items-center justify-content-between margem">
+                            <div>
+                                <div class="titulo_card" >
+                                    Apresentação das empresas madrinhas 
+                                </div>
+                            </div>
+                        </v-card-item>
+                    </v-card>
+                </div>
+                <div class="mt-5 premiacao " style="padding-top: 3%;">
+                    <v-card variant="outlined" id="card_atividade" style="position:relative;">
+                        <v-card-item class="row align-items-center justify-content-between margem">
+                            <div>
+                                <div class="titulo_card" >
+                                    Premiação Code Game
+                                </div>
+                            </div>
+                        </v-card-item>
+                    </v-card>
                 </div>
                 <div class="mt-5 encerramento " style="padding-top: 3%;">
                     <v-card variant="outlined" id="card_atividade" style="position:relative;">
@@ -545,7 +587,7 @@
     border-radius: 8px;
     padding: 10px;
     position: absolute;	
-    content:"14:00 - 16:00";
+    content:"14:00";
     top:0;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -570,7 +612,7 @@
     border-radius: 8px;
     padding: 10px;
     position: absolute;	
-    content:"12:00 - 14:00";
+    content:"12:00";
     top:0;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -589,7 +631,7 @@
     border-radius: 8px;
     padding: 10px;
     position: absolute;	
-    content:"11:00 - 11:50";
+    content:"11:00";
     top:0;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -620,7 +662,7 @@
     border-radius: 8px;
     padding: 10px;
     position: absolute;	
-    content:"10:10 - 11:00";
+    content:"10:10";
     top:0
   }
   .palestra1{
@@ -644,7 +686,7 @@
     border-radius: 8px;
     padding: 10px;
     position: absolute;	
-    content:"09:20 - 10:10";
+    content:"09:20";
     top:0
   }
   .boas_vindas{
@@ -668,7 +710,7 @@
     border-radius: 8px;
     padding: 10px;
     position: absolute;	
-    content:"09:00 - 09:20";
+    content:"09:00";
     top:0
   }
     .credenciamento{
@@ -692,7 +734,103 @@
     border-radius: 8px;
     padding: 10px;
     position: absolute;	
-    content:"08:00 - 09:00";
+    content:"08:00";
+    top:0
+  }
+  .foto{
+        position: relative;
+    }
+  .foto::after{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 160%;
+    /* or 19px */
+
+    letter-spacing: 0.4px;
+
+    /* Grey/Grey-900 */
+
+    color: #1D1B1F;
+    background: #EFF8EA;
+    border: 1px solid rgba(40, 168, 153, 0.31);
+    border-radius: 8px;
+    padding: 10px;
+    position: absolute;	
+    content:"13:40";
+    top:0
+  }
+  .sorteio{
+        position: relative;
+    }
+  .sorteio::after{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 160%;
+    /* or 19px */
+
+    letter-spacing: 0.4px;
+
+    /* Grey/Grey-900 */
+
+    color: #1D1B1F;
+    background: #EFF8EA;
+    border: 1px solid rgba(40, 168, 153, 0.31);
+    border-radius: 8px;
+    padding: 10px;
+    position: absolute;	
+    content:"16:15";
+    top:0
+  }
+  .madrinha{
+        position: relative;
+    }
+  .madrinha::after{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 160%;
+    /* or 19px */
+
+    letter-spacing: 0.4px;
+
+    /* Grey/Grey-900 */
+
+    color: #1D1B1F;
+    background: #EFF8EA;
+    border: 1px solid rgba(40, 168, 153, 0.31);
+    border-radius: 8px;
+    padding: 10px;
+    position: absolute;	
+    content:"16:30";
+    top:0
+  }
+  .premiacao{
+        position: relative;
+    }
+  .premiacao::after{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 160%;
+    /* or 19px */
+
+    letter-spacing: 0.4px;
+
+    /* Grey/Grey-900 */
+
+    color: #1D1B1F;
+    background: #EFF8EA;
+    border: 1px solid rgba(40, 168, 153, 0.31);
+    border-radius: 8px;
+    padding: 10px;
+    position: absolute;	
+    content:"17:00";
     top:0
   }
   .encerramento{
@@ -716,7 +854,7 @@
     border-radius: 8px;
     padding: 10px;
     position: absolute;	
-    content:"17:20 - 17:30";
+    content:"17:30";
     top:0
   }
   .titulo_card{

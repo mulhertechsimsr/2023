@@ -1,5 +1,5 @@
 <template>
-    <div id="5" class="patrocinio" style="padding-top: 100px">
+    <div id="5" class="patrocinio" style="padding-top: 100px; padding-bottom: 100px">
         <div>
             <p class="title_patrocinio">Veja nossas parceiras</p>
             <div class="hidden2">
@@ -117,8 +117,8 @@
                     <div class="col-md-2 d-flex justify-content-center">
                         <img v-if="!colaboradora" :src="fiabilite"
                         @mouseover='fiabilite = require("../assets/img/patrocinio/fiabillite.png")'
-                        @mouseout="fiabilite = require('../assets/img/patrocinio/fiabillite_false.png')" width="30%"/>
-                        <img v-if="colaboradora" src='../assets/img/patrocinio/fiabillite.png'  width="30%"/>
+                        @mouseout="fiabilite = require('../assets/img/patrocinio/fiabillite_false.png')" width="40%"/>
+                        <img v-if="colaboradora" src='../assets/img/patrocinio/fiabillite.png'  width="40%"/>
                     </div>
                     <div class="col-md-3 d-flex justify-content-center">
                         <img v-if="!realizadora" :src="luizalabs"
@@ -174,7 +174,7 @@
                     </v-sheet>
                 </div>
             </div>
-           <p class="title_patrocinio hidden2" style="margin-top: 140px;">Veja nossos apoios</p>
+           <p class="title_patrocinio hidden2" style="margin-top: 140px; ">Veja nossos apoios</p>
            <div class="row hidden2 mb-5 align-items-center justify-content-center mx-5">
                 <div class="col-md-2 align-items-center mx-4 d-flex justify-content-center">
                     <img :src="graficajb"

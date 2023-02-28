@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="7">
         <div class="d-flex" style="justify-content:center; margin-bottom:50px">
             <h1 class="titulo_tema"> Perguntas Frequentes</h1>
             </div>
