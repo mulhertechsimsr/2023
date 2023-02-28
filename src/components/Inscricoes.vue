@@ -65,9 +65,9 @@
                                             </div>
                                         </div>
                                    
-                                    <div >
+                                    <!-- <div >
                                         <v-btn to="/work1" id="inscricao" style="color:white !important; margin-right: 16px; margin-left: 16px; margin-bottom: 16px;">Inscreva-se</v-btn>
-                                    </div> 
+                                    </div>  -->
                                 </div>
                                 <div class="row justify-content-between align-items-center" variant="outlined" id="card_atividades" style="margin:16px;border: 1px solid rgba(151, 71, 255, 0.31); border-radius: 8px">
                                     <div class="col-md-8">

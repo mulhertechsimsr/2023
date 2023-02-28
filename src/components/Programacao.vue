@@ -163,9 +163,9 @@
                                                 Laysa Belici | Engenheira de dados @ Energisa
                                             </div>
                                         </div>
-                                        <div  id="inscricao" style="color:white !important; padding-left: 16px;">
+                                        <!-- <div  id="inscricao" style="color:white !important; padding-left: 16px;">
                                             <v-btn to="/inscricao" target="_blank" style="color:white !important;" class="btn_insc" id="inscricao">Inscreva-se</v-btn>
-                                        </div>
+                                        </div> -->
                                         
                                         
                                     </v-card-item>
