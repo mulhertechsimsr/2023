@@ -1,101 +1,423 @@
 <template>
-    <div>
-          <div class="d-flex" style="justify-content:center; margin-bottom:50px">
-              <h1 class="titulo_tema"> Perguntas Frequentes</h1>
-              </div>
-          <div class=" justify-content-center d-flex" style="padding-left: 5%; padding-right: 5% ; flex-direction: column; align-items: center">
-              <div class="w-50">
-            <v-expansion-panels focusable>
-              <v-expansion-panel>
-                  <v-expansion-panel-header>Onde posso obter mais informações sobre o evento?</v-expansion-panel-header>
-                  <v-expansion-panel-content>
-                    Em nosso site (https://www.mulhertechsimsr.com.br/) e também em nossas redes sociais (Instagram, Facebook e LinkedIn)
-                  </v-expansion-panel-content>
-                </v-expansion-panel>
-            </v-expansion-panels>
-            <v-expansion-panels focusable>
-              <v-expansion-panel>
-                  <v-expansion-panel-header>Qual o valor da inscrição?</v-expansion-panel-header>
-                  <v-expansion-panel-content>
-                      Teremos cinco lotes com preços progressivos de R$ 20 a R$ 50. Sempre que um lote acabar, outro será iniciado.
-                  </v-expansion-panel-content>
-                </v-expansion-panel>
-            </v-expansion-panels>
-            <v-expansion-panels focusable>
-              <v-expansion-panel>
-                  <v-expansion-panel-header>Há alguma vantagem entre os lotes?</v-expansion-panel-header>
-                  <v-expansion-panel-content>
-                    O primeiro lote terá direito a um brinde especial.
-                  </v-expansion-panel-content>
-                </v-expansion-panel>
-            </v-expansion-panels>
-            <v-expansion-panels focusable>
-              <v-expansion-panel>
-                  <v-expansion-panel-header>Quem pode se inscrever?</v-expansion-panel-header>
-                  <v-expansion-panel-content>
-                    O evento é restrito para mulheres (cis, trans e travestis).
-                  </v-expansion-panel-content>
-                </v-expansion-panel>
-            </v-expansion-panels>
-            <v-expansion-panels focusable>
-              <v-expansion-panel>
-                  <v-expansion-panel-header>Há alguma vantagem para caravanas?</v-expansion-panel-header>
-                  <v-expansion-panel-content>
-                    Se for para o evento com um grupo, informe o nome dele (Ex: Caravana Cidade X) na inscrição. As caravanas vão receber um kit especial no dia do evento.
-                  </v-expansion-panel-content>
-                </v-expansion-panel>
-            </v-expansion-panels>
-            <v-expansion-panels focusable>
-              <v-expansion-panel>
-                  <v-expansion-panel-header>O que a inscrição inclui?</v-expansion-panel-header>
-                  <v-expansion-panel-content>
-                      Além de garantir acesso a toda a programação do evento (palestras, oficinas, etc) e a um kit participante com vários mimos, a inscrição também garante alimentação durante todo o evento, intérprete de libras e Espaço Kids para as mães que desejarem deixar seus filhos.
-                  </v-expansion-panel-content>
-                </v-expansion-panel>
-            </v-expansion-panels>
-            <v-expansion-panels focusable>
-              <v-expansion-panel>
-                  <v-expansion-panel-header>Como posso pagar minha inscrição?</v-expansion-panel-header>
-                  <v-expansion-panel-content>
-                    Usando pix, boleto ou cartão.              
-                  </v-expansion-panel-content>
-                </v-expansion-panel>
-            </v-expansion-panels>
-            <v-expansion-panels focusable>
-              <v-expansion-panel>
-                  <v-expansion-panel-header>Posso doar uma inscrição?</v-expansion-panel-header>
-                  <v-expansion-panel-content>
-                      Caso queira ser solidária e ajudar outra mulher a participar, entre em contato com a organização do evento pelo e-mail mulhertechsimsr@gmail.com.
-                  </v-expansion-panel-content>
-                </v-expansion-panel>
-            </v-expansion-panels>
-            <v-expansion-panels focusable>
-              <v-expansion-panel>
-                  <v-expansion-panel-header>Existe inscrição social ou gratuita?</v-expansion-panel-header>
-                  <v-expansion-panel-content>
-                      Não queremos deixar ninguém de fora do evento! Caso você não possa pagar, entre em contato com a organização pelo e-mail mulhertechsimsr@gmail.com e daremos um jeito.
-                  </v-expansion-panel-content>
-                </v-expansion-panel>
-            </v-expansion-panels>
-            <v-expansion-panels focusable>
-              <v-expansion-panel>
-                  <v-expansion-panel-header>Até quando posso solicitar reembolso?</v-expansion-panel-header>
-                  <v-expansion-panel-content>
-                      As solicitações de reembolso serão atendidas até 10 dias antes do evento, após essa data ficará inviável emitir reembolso, apesar da configuração da ferramenta.
-                  </v-expansion-panel-content>
-                </v-expansion-panel>
-            </v-expansion-panels>
-            <v-expansion-panels focusable>
-              <v-expansion-panel>
-                  <v-expansion-panel-header>Precisa de transporte para o local do evento?</v-expansion-panel-header>
-                  <v-expansion-panel-content>
-                      Não queremos que a distância seja um empecilho para ninguém! Pensando nisso, fizemos uma parceria com Pedroza Receptivo e haverá vans e ônibus saindo da UFPB para o Centro de Convenções 1h antes do evento, e retornando após o encerramento pelo valor único de R$ 30,00. Para adquirir esse serviço ou obter mais detalhes, basta entrar em contato pelo email transporte.mulhertechsimsr@gmail.com
-                  </v-expansion-panel-content>
-                </v-expansion-panel>
-            </v-expansion-panels>
-          </div>
-            <a class="link mx-0 d-flex justify-content-start" style="margin-top:32px; padding-bottom:50px" target="_blank" download href="/files/codigo_conduta.pdf">Acesse aqui nosso código de conduta</a>
-          </div>
+    <div id="6" style="padding-bottom: 60px;">
+            <div class="d-flex" style="justify-content:center; margin-bottom:50px; flex-direction: column">
+                <div class="container">
+                    <h1 class="titulo_tema mb-2"> Programação</h1>
+                <p class="subtitulo mt-0" style="text-align:center">Confira as atrações do evento e não deixe de se inscrever nas atividades </p>
+                </div>
+                
+                <div class="container d-flex largura centraliza_mobile" style="margin-top:40px">
+                    <v-btn id="manha" style="padding: 20px 12px" :class="isActiveManha" @click="mudarProg('manha')">
+                        <div class="d-flex align-items-center">
+                           <span class="material-symbols-outlined mr-2">
+                                light_mode
+                            </span>
+                                Manhã 
+                        </div>
+                    
+                    </v-btn>
+                    <v-btn id="tarde" :class="isActiveTarde" style="padding: 20px 12px" @click="mudarProg('tarde')">
+                        <div class="d-flex align-items-center">
+                            <span class="material-symbols-outlined mr-2" style="color: #1C1B1F;">
+                            partly_cloudy_day
+                            </span>
+                                Tarde
+                        </div>
+                    
+                    </v-btn>
+                </div>
+                
+            </div>
+            <div class="container largura" v-if="manha">
+                <div class="credenciamento mt-5" style="padding-top: 3%;">
+                    <v-card variant="outlined" id="card_atividade" style="position:relative">
+                        <v-card-item>
+                                <div class="titulo_card">
+                                    Credenciamento
+                                </div>
+                            </v-card-item>
+                    </v-card>
+                </div>
+                <div class="boas_vindas mt-5" style="padding-top: 3%;">
+                    <v-card variant="outlined" id="card_atividade" style="position:relative">
+                        <v-card-item>
+                                <div class="titulo_card">
+                                    Boas Vindas
+                                </div>
+                            </v-card-item>
+                    </v-card>
+                </div>
+                <div class="palestra1 mt-5" style="padding-top: 3%;">
+                    <v-card variant="outlined" id="card_atividade" style="position:relative">
+                        <v-card-item>
+                                <div class="titulo_card">
+                                    Palestra: Como considerar a experiência da pessoa usuária no desenvolvimento de Software
+                                </div>
+                                <div class="subtitulo_card">
+                                    Taciana Pontual | Professora @ UFRPE
+                                </div>
+                            </v-card-item>
+                    </v-card>
+                </div>
+                <div class="palestra2 mt-5" style="padding-top: 3%;">
+                    <v-card variant="outlined" id="card_atividade" style="position:relative">
+                        <v-card-item>
+                                <div class="titulo_card">
+                                    Palestra: Você pagou quanto para fazerem esse código?
+                                </div>
+                                <div class="subtitulo_card">
+                                    Soraya Roberta | Doutoranda @ UFRPE
+                                </div>
+                            </v-card-item>
+                    </v-card>
+                </div>
+                <div class="palestra3 mt-5" style="padding-top: 3%;">
+                    <v-card variant="outlined" id="card_atividade" style="position:relative">
+                        <v-card-item>
+                                <div class="titulo_card">
+                                    Palestra: Do Caps Lock ao Top Voice
+                                </div>
+                                <div class="subtitulo_card">
+                                    Silvia Coelho | Fundadora @ Elas Programam
+                                </div>
+                            </v-card-item>
+                    </v-card>
+                </div>
+                <div class="almoco mt-5" style="padding-top: 3%;">
+                    <v-card variant="outlined" id="card_atividade" style="position:relative">
+                        <v-card-item>
+                                <div class="titulo_card">
+                                    Almoço
+                                </div>
+                            </v-card-item>
+                    </v-card>
+                </div>
+            </div>
+            <div class="container largura" v-if="tarde">
+                <div class="atividades mt-5" style="padding-top: 3%;">
+                    <v-card variant="outlined" id="card_atividade" style="position:relative">
+                        <v-card-item>
+                                <div class="titulo_card">
+                                    Início das atividades
+                                </div>
+                            </v-card-item>
+                    </v-card>
+                </div>
+                <div class="mt-5">
+                    <v-card variant="outlined" id="card_atividade" style="position:relative;">
+                        <v-card-item class="row align-items-center justify-content-between margem">
+                            <div>
+                                <div class="titulo_card" style="padding-top: 16px ">
+                                    Code Game
+                                </div>
+                                <div class="subtitulo_card">
+                                    Apoio @ Alura
+                                </div>
+                            </div>
+                            <!-- <v-btn to="/inscricao" target="_blank" id="inscricao" style="color:white !important; margin-right: 16px;">Inscreva-se</v-btn> -->
+                            
+                        </v-card-item>
+                    </v-card>
+                </div>
+                <div class="mt-5">
+                    <v-expansion-panels id="card_work">
+                        <v-expansion-panel id="top">
+                            <!-- <div class="d-flex my-auto mt-2 hidden" id="esconde" style="align-items: center;">
+                                <p class="ml-2 inscricoes_abertas" style="margin-bottom: 0px !important;">
+                                    Inscrições abertas
+                                </p>
+                            </div> -->
+                            <v-expansion-panel-header class="titulo_card" style="padding-top: 16px " disable-icon-rotate>
+                            Workshops
+                            <!-- <div class="d-flex my-auto hidden2" id="esconde" style="align-items: center;">
+                                <p class="ml-2 inscricoes_abertas" style="margin-bottom: 0px !important;">
+                                    Inscrições abertas
+                                </p>
+                            </div> -->
+                            <template v-slot:actions>
+                                <div class="d-flex align-items-center verMais" style="color: #9747FF;">
+                                    Ver mais
+                                    <span class="material-symbols-outlined ml-1" style="font-size:16px">
+                                    add
+                                    </span>
+                                </div>
+                            </template>
+                            </v-expansion-panel-header>
+                            <v-expansion-panel-content>
+                                <v-card variant="outlined" id="card_atividade" style="position:relative; border: 1px solid rgba(151, 71, 255, 0.31);" >
+                                    <v-card-item class="row w-100 align-items-center justify-content-between">
+                                        <div class="col-md-8">
+                                            <div class="titulo_card titulo_workshop" style="padding-top: 16px ">
+                                                Visualização de dados com Locker Studio: Primeiros passos pra engenharia analítica
+                                            </div>
+                                            <div class="subtitulo_card">
+                                                Laysa Belici | Engenheira de dados @ Energisa
+                                            </div>
+                                        </div>
+                                        <!-- <div to="/inscricao" target="_blank" id="inscricao" style="color:white !important; padding-left: 16px;">
+                                            <v-btn class="btn_insc" id="inscricao">Inscreva-se</v-btn>
+                                        </div> -->
+                                        
+                                        
+                                    </v-card-item>
+                                </v-card>
+                                <v-card variant="outlined" id="card_atividade" class="mt-5" style="position:relative; border: 1px solid rgba(151, 71, 255, 0.31);" >
+                                    <v-card-item class="row w-100 align-items-center justify-content-between">
+                                        <div class="col-md-8">
+                                            <div class="titulo_card titulo_workshop" style="padding-top: 16px ">
+                                                Design Thiking - Ouse transformar
+                                            </div>
+                                            <div class="subtitulo_card">
+                                                Micheline Barroso e Lívia Vasconcelos | Fundadoras @ Inova-te
+                                            </div>
+                                        </div>
+                                        <!-- <div to="/inscricao" target="_blank" id="inscricao" style="color:white !important; padding-left: 16px;">
+                                            <v-btn class="btn_insc" id="inscricao">Inscreva-se</v-btn>
+                                        </div> -->
+                                        
+                                        
+                                    </v-card-item>
+                                </v-card>
+                            </v-expansion-panel-content>
+                        </v-expansion-panel>
+                    </v-expansion-panels>
+                </div>
+                <div class="mt-5">
+                    <v-expansion-panels id="card_trilha">
+                        <v-expansion-panel id="top">
+                            <v-expansion-panel-header class="titulo_card" style="padding-top: 16px " disable-icon-rotate>
+                            Trilha Design
+                            <template v-slot:actions>
+                                <div class="d-flex align-items-center verMais" style="color: #FF005E;">
+                                    Ver mais
+                                    <span class="material-symbols-outlined ml-1" style="font-size:16px">
+                                    add
+                                    </span>
+                                </div>
+                            </template>
+                            </v-expansion-panel-header>
+                            <v-expansion-panel-content>
+                                <v-card variant="outlined" id="card_atividade" style="position:relative; border: 1px solid rgba(255, 0, 94, 0.24);" >
+                                    <v-card-item class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <div class="titulo_card" style="padding-top: 16px ">
+                                                O que o Design tem a ver com isso?
+                                            </div>
+                                            <div class="subtitulo_card">
+                                                Danusa Neiva | UX Designer
+                                            </div>
+                                        </div>
+                                        
+                                    </v-card-item>
+                                </v-card>
+                                <v-card variant="outlined" id="card_atividade" class="mt-5" style="position:relative; border: 1px solid rgba(255, 0, 94, 0.24);" >
+                                    <v-card-item class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <div class="titulo_card" style="padding-top: 16px ">
+                                                Psicologia atrelada a produtos digitais: Como utilizar conceitos de psicologia no dia a dia em UX e UI
+                                            </div>
+                                            <div class="subtitulo_card">
+                                                Gabriela Ozório | Product Designer Sênior @ PicPay
+                                            </div>
+                                        </div>
+                                        
+                                    </v-card-item>
+                                </v-card>
+                                <v-card variant="outlined" id="card_atividade" class="mt-5" style="position:relative; border: 1px solid rgba(255, 0, 94, 0.24);" >
+                                    <v-card-item class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <div class="titulo_card" style="padding-top: 16px ">
+                                                Construindo experiências excepcionais: A influência dos princípios básicos do design na jornada do UX/UI Design
+                                            </div>
+                                            <div class="subtitulo_card">
+                                                Cecília Veloso| CEO @ Lit Collective
+                                            </div>
+                                        </div>
+                                        
+                                    </v-card-item>
+                                </v-card>
+                            </v-expansion-panel-content>
+                        </v-expansion-panel>
+                    </v-expansion-panels>
+                </div>
+                <div class="mt-5">
+                    <v-expansion-panels id="card_trilha">
+                        <v-expansion-panel id="top">
+                            <v-expansion-panel-header class="titulo_card" style="padding-top: 16px " disable-icon-rotate>
+                            Trilha Carreira
+                            <template v-slot:actions>
+                                <div class="d-flex align-items-center verMais" style="color: #FF005E;">
+                                    Ver mais
+                                    <span class="material-symbols-outlined ml-1" style="font-size:16px">
+                                    add
+                                    </span>
+                                </div>
+                            </template>
+                            </v-expansion-panel-header>
+                            <v-expansion-panel-content>
+                                <v-card variant="outlined" id="card_atividade" style="position:relative; border: 1px solid rgba(255, 0, 94, 0.24);" >
+                                    <v-card-item class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <div class="titulo_card" style="padding-top: 16px ">
+                                                Vem pro play, mulher!
+                                            </div>
+                                            <div class="subtitulo_card">
+                                                Tânia Schmidt e Ana Paula Mileski @ Banco do Brasil
+                                            </div>
+                                        </div>
+                                        
+                                    </v-card-item>
+                                </v-card>
+                                <v-card variant="outlined" class="mt-5" id="card_atividade" style="position:relative; border: 1px solid rgba(255, 0, 94, 0.24);" >
+                                    <v-card-item class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <div class="titulo_card" style="padding-top: 16px ">
+                                                Carreira Internacional: um caminho possível para mulheres?
+                                            </div>
+                                            <div class="subtitulo_card">
+                                                Lorena Locks Coelho | WTM Ambassador e Global Tech Recruiter @ Teamit
+                                            </div>
+                                        </div>
+                                        
+                                    </v-card-item>
+                                </v-card>
+                                <v-card variant="outlined" id="card_atividade" class="mt-5" style="position:relative; border: 1px solid rgba(255, 0, 94, 0.24);" >
+                                    <v-card-item class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <div class="titulo_card" style="padding-top: 16px ">
+                                                Saiba as principais soft skills necessárias para chegar à NASA!
+                                            </div>
+                                            <div class="subtitulo_card">
+                                                Dani Bezerra | Local Leader @ NASA Space Jampa
+                                            </div>
+                                        </div>
+                                        
+                                    </v-card-item>
+                                </v-card>
+                            </v-expansion-panel-content>
+                        </v-expansion-panel>
+                    </v-expansion-panels>
+                </div>
+                <div class="mt-5">
+                    <v-expansion-panels id="card_trilha">
+                        <v-expansion-panel id="top">
+                            <v-expansion-panel-header class="titulo_card" style="padding-top: 16px " disable-icon-rotate>
+                            Trilha Desenvolvimento
+                            <template v-slot:actions>
+                                <div class="d-flex align-items-center verMais" style="color: #FF005E;">
+                                    Ver mais
+                                    <span class="material-symbols-outlined ml-1" style="font-size:16px">
+                                    add
+                                    </span>
+                                </div>
+                            </template>
+                            </v-expansion-panel-header>
+                            <v-expansion-panel-content>
+                                <v-card variant="outlined" id="card_atividade" style="position:relative; border: 1px solid rgba(255, 0, 94, 0.24);" >
+                                    <v-card-item class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <div class="titulo_card" style="padding-top: 16px ">
+                                                Desbravando HTTP com http.server
+                                            </div>
+                                            <div class="subtitulo_card">
+                                                Ana Paula Mendes | Senior Software Engineer @ Jusbrasil
+                                            </div>
+                                        </div>
+                                        
+                                    </v-card-item>
+                                </v-card>
+                                <v-card variant="outlined" id="card_atividade" class="mt-5" style="position:relative; border: 1px solid rgba(255, 0, 94, 0.24);" >
+                                    <v-card-item class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <div class="titulo_card" style="padding-top: 16px ">
+                                                QA como uma opção de carreira
+                                            </div>
+                                            <div class="subtitulo_card">
+                                                Sara Gonçalves | Quality Assurance Engineer Jr @ Atlas Technologies
+                                            </div>
+                                        </div>
+                                        
+                                    </v-card-item>
+                                </v-card>
+                                <v-card variant="outlined" id="card_atividade" class="mt-5" style="position:relative; border: 1px solid rgba(255, 0, 94, 0.24);" >
+                                    <v-card-item class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <div class="titulo_card" style="padding-top: 16px ">
+                                                Quem é responsável pelo "output" da IA?
+                                            </div>
+                                            <div class="subtitulo_card">
+                                                Renata Góis | Assistente jurídica  @ Bezerra e Costa Advogados
+                                            </div>
+                                        </div>
+                                        
+                                    </v-card-item>
+                                </v-card>
+                                
+                            </v-expansion-panel-content>
+                        </v-expansion-panel>
+                    </v-expansion-panels>
+                </div>
+                <div class="mt-5">
+                    <v-expansion-panels id="card_trilha">
+                        <v-expansion-panel id="top">
+                            <v-expansion-panel-header class="titulo_card" style="padding-top: 16px " disable-icon-rotate>
+                            Trilha Tendências
+                            <template v-slot:actions>
+                                <div class="d-flex align-items-center verMais" style="color: #FF005E;">
+                                    Ver mais
+                                    <span class="material-symbols-outlined ml-1" style="font-size:16px">
+                                    add
+                                    </span>
+                                </div>
+                            </template>
+                            </v-expansion-panel-header>
+                            <v-expansion-panel-content>
+                                <v-card variant="outlined" id="card_atividade" style="position:relative; border: 1px solid rgba(255, 0, 94, 0.24);" >
+                                    <v-card-item class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <div class="titulo_card" style="padding-top: 16px ">
+                                                Do Plim ao Play: Uma trajetória de sucesso unindo Arte e Tecnologia
+                                            </div>
+                                            <div class="subtitulo_card">
+                                                Laís Layme | Agile Coach @ Globo Play
+                                            </div>
+                                        </div>
+                                        
+                                    </v-card-item>
+                                </v-card>
+                                
+                                <v-card variant="outlined" id="card_atividade" class="mt-5" style="position:relative; border: 1px solid rgba(255, 0, 94, 0.24);" >
+                                    <v-card-item class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <div class="titulo_card" style="padding-top: 16px ">
+                                                O potencial educacional da sucata tecnológica
+                                            </div>
+                                            <div class="subtitulo_card">
+                                                Ielê Passos | Graduanda em Ciência da Computação @ Universidade Federal de Campina Grande
+                                            </div>
+                                        </div>
+                                        
+                                    </v-card-item>
+                                </v-card>
+                                <v-card variant="outlined" id="card_atividade" class="mt-5" style="position:relative; border: 1px solid rgba(255, 0, 94, 0.24);" >
+                                    <v-card-item class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <div class="titulo_card" style="padding-top: 16px ">
+                                                TI sem programar!
+                                            </div>
+                                            <div class="subtitulo_card">
+                                                Tatiane Sousa | Analista de Recursos Humanos @ Dock
+                                            </div>
+                                        </div>
+                                        
+                                    </v-card-item>
+                                </v-card>
+                            </v-expansion-panel-content>
+                        </v-expansion-panel>
+                    </v-expansion-panels>
+                </div>
+            </div>
+            
       
     </div>
   </template>
@@ -107,44 +429,10 @@
       data () {
         return {
           panel: [],
-          manha: [
-            {
-                horario: "08:00 - 09:00",
-                titulo: "Credenciamento",
-                subtitulo:"",
-            },
-            {
-                horario: "09:00 - 09:20",
-                titulo: "Boas vindas",
-                subtitulo:"",
-            },
-            {
-                horario: "09:20 - 10:10",
-                titulo: "Palestra: Como considerar a experiência da pessoa usuária no desenvolvimento de Software",
-                subtitulo:"Taciana Pontual | Professora @ UFRPE",
-            },
-            {
-                horario: "10:10 - 11:00",
-                titulo: "Palestra: Você pagou quanto para fazerem esse código?",
-                subtitulo:"Soraya Roberta | Doutoranda @ UFRPE",
-            },
-            {
-                horario: "11:00 - 11:50",
-                titulo: "Palestra: Do Caps Lock ao Top Voice",
-                subtitulo:"Silvia Coelho | Fundadora @ Elas Programam",
-            },
-            {
-                horario: "12:00 - 14:00",
-                titulo: "Almoço",
-                subtitulo:"",
-            },
-          ],
-          tarde:[
-            {
-                horario:"14:00 - 16:00",
-                titulo: "Início das atividades"
-            }
-          ]
+          manha: true,
+          tarde: false,
+          isActiveManha: 'isActiveManha',
+          isActiveTarde: ''
         }
       },
       methods: {
@@ -157,45 +445,349 @@
         none () {
           this.panel = []
         },
+
+        mudarProg(valor){
+            if (valor == "manha"){
+                this.manha = true
+                this.tarde = false
+                this.isActiveManha = "isActiveManha"
+                this.isActiveTarde = ''
+            } else{
+                this.manha = false
+                this.tarde = true
+                this.isActiveTarde = "isActiveTarde"
+                this.isActiveManha = ''
+            }
+            
+        }
       },
     }
+
+
   </script>
   
   <style>
-  .link, .link:hover{
-      color:#FF005E !important;
-      margin-bottom:50px;
-      text-decoration-line: underline;
-      font-family: 'Noticia Text';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 20px;
+  .v-expansion-panel::before, .theme--light.v-expansion-panels .v-expansion-panel{
+    background-color: #FBFAFC;
+    box-shadow: none;
   }
-  
-  .v-expansion-panel-header{
+  #card_trilha{
+    background: white;
+    border: 1px solid rgba(255, 0, 94, 0.24);
+    border-radius: 8px;
+    box-shadow: none;
+  }
+  .inscricoes_abertas{
+    background: rgba(151, 71, 255, 0.4);
+    border-radius: 10px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 4px 8px;
+    text-align: center;
+
+    color: #000000;
+  }
+  .v-expansion-panel#top{
+    margin-top: 0px !important;
+  }
+  #card_work{
+    background-color: #FBFAFC;
+    border: 1px solid rgba(151, 71, 255, 0.31);
+    border-radius: 8px;
+    box-shadow: none;
+  }
+  .verMais{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15px;
+  }
+  a#inscricao{
+    margin: 0;
+  }
+  .v-btn#inscricao{
+    background: #9747FF;
+    border-radius: 6.81633px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-transform: none;
+  }
+  .atividades{
+        position: relative;
+    }
+  .atividades::after{
+    background: #EFF8EA;
+    border: 1px solid rgba(40, 168, 153, 0.31);
+    border-radius: 8px;
+    padding: 10px;
+    position: absolute;	
+    content:"14:00 - 16:00";
+    top:0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 160%;
+    letter-spacing: 0.4px;
+    color: #1D1B1F;
+  }
+  .isActiveManha, .isActiveTarde{
+    background-color: rgba(254, 23, 181, 0.31) !important;
+  }
+  .largura{
+    width: 50vw !important;
+  }
+  .almoco{
+        position: relative;
+    }
+  .almoco::after{
+    background: #EFF8EA;
+    border: 1px solid rgba(40, 168, 153, 0.31);
+    border-radius: 8px;
+    padding: 10px;
+    position: absolute;	
+    content:"12:00 - 14:00";
+    top:0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 160%;
+    letter-spacing: 0.4px;
+    color: #1D1B1F;
+  }
+  .palestra3{
+        position: relative;
+    }
+  .palestra3::after{
+    background: #EFF8EA;
+    border: 1px solid rgba(40, 168, 153, 0.31);
+    border-radius: 8px;
+    padding: 10px;
+    position: absolute;	
+    content:"11:00 - 11:50";
+    top:0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 160%;
+    letter-spacing: 0.4px;
+    color: #1D1B1F;
+  }
+  .palestra2{
+        position: relative;
+    }
+  .palestra2::after{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 160%;
+    /* or 19px */
+
+    letter-spacing: 0.4px;
+
+    /* Grey/Grey-900 */
+
+    color: #1D1B1F;
+    background: #EFF8EA;
+    border: 1px solid rgba(40, 168, 153, 0.31);
+    border-radius: 8px;
+    padding: 10px;
+    position: absolute;	
+    content:"10:10 - 11:00";
+    top:0
+  }
+  .palestra1{
+        position: relative;
+    }
+  .palestra1::after{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 160%;
+    /* or 19px */
+
+    letter-spacing: 0.4px;
+
+    /* Grey/Grey-900 */
+
+    color: #1D1B1F;
+    background: #EFF8EA;
+    border: 1px solid rgba(40, 168, 153, 0.31);
+    border-radius: 8px;
+    padding: 10px;
+    position: absolute;	
+    content:"09:20 - 10:10";
+    top:0
+  }
+  .boas_vindas{
+        position: relative;
+    }
+  .boas_vindas::after{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 160%;
+    /* or 19px */
+
+    letter-spacing: 0.4px;
+
+    /* Grey/Grey-900 */
+
+    color: #1D1B1F;
+    background: #EFF8EA;
+    border: 1px solid rgba(40, 168, 153, 0.31);
+    border-radius: 8px;
+    padding: 10px;
+    position: absolute;	
+    content:"09:00 - 09:20";
+    top:0
+  }
+    .credenciamento{
+        position: relative;
+    }
+  .credenciamento::after{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 160%;
+    /* or 19px */
+
+    letter-spacing: 0.4px;
+
+    /* Grey/Grey-900 */
+
+    color: #1D1B1F;
+    background: #EFF8EA;
+    border: 1px solid rgba(40, 168, 153, 0.31);
+    border-radius: 8px;
+    padding: 10px;
+    position: absolute;	
+    content:"08:00 - 09:00";
+    top:0
+  }
+  .titulo_card{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    color: #1D1B1F;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-top: 32px;
+  }
+  #card_atividade{
+    background: #FBFAFC;
+    border: 1px solid rgba(40, 168, 153, 0.31);
+    border-radius: 8px;
+    box-shadow: none;
+  }
+  .v-btn#tarde, .v-btn__content#tarde{
+    border: 1px solid #79747E;
+    border-left: none ;
+    border-radius: 0px 100px 100px 0px;
+    background-color: rgba(209, 237, 218, 1);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-weight: 500;
-    font-size:16px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1C1B1F;
+    text-transform:none;
+
   }
-  .v-expansion-panel-content{
-    padding-top:15px;
+  .v-btn#manha, .v-btn__content#manha{
+    border: 1px solid #79747E;
+    border-radius: 100px 0px 0px 100px;
+    background-color: rgba(209, 237, 218, 1);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1C1B1F;
+    text-transform:none;
+
   }
-  .v-expansion-panel{
-      margin-top: 16px !important;
+
+  .subtitulo_card{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.15px;
+    color: #706D73;
+    padding: 0px 16px 16px 16px;
   }
-  .theme--light.v-expansion-panels .v-expansion-panel-header .v-expansion-panel-header__icon .v-icon{
-    color:#FF005E !important;
-    font-family: 'Inter';
-      font-style: normal;
-      font-weight: 500;
-      line-height: 28px;
+  .margem{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
   }
-  .theme--light.v-expansion-panels .v-expansion-panel{
-      background: white !important;
-      color:#FF005E !important;
+  .hidden#esconde{
+    display: none !important;
   }
-  .v-expansion-panel-content__wrap{
-      color: #202020 !important;
+  .largura2{
+    width: 75vw;
   }
+
+
+
+  @media only screen and (max-width: 768px)
+{ 
+
+}
+
+@media only screen and (max-width: 576px)
+{
+    .largura{
+    width: 100vw !important;
+  }
+  .largura2{
+    width: 100vw;
+  }
+  .margem{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .titulo_card{
+    font-size: 18px;
+  }
+  .titulo_workshop{
+    padding-left: 16px !important;
+    padding-top: 16px !important;
+    padding-right: 16px !important;
+  }
+  .btn_insc{
+    margin-left: 16px !important;
+    margin-bottom: 16px !important;
+  }
+  .hidden#esconde{
+    display: flex !important;
+  }
+  .hidden2#esconde{
+    display: none !important;
+  }
+}
   
   </style>

@@ -15,7 +15,7 @@
         <Evento/>
         <Diferenciais />
       </div>
-      
+      <Programacao class="background_escuro"/>
       <Sobre/>
       <Faq class="background_escuro" />
       <Patrocinio/>
@@ -73,7 +73,7 @@ h1{
     margin-bottom: 30px!important;
 }
 
-@media (max-width: 768px)
+@media only screen and (max-width: 768px)
 { 
   h1{
     font-size:30px !important;
@@ -139,7 +139,7 @@ h1{
 }
 }
 
-@media (max-width: 576px)
+@media only screen and (max-width: 576px)
 {
   .sessao-1{
     background-size: 15% 30%, 20% 40%, 20% 35%;
@@ -216,6 +216,7 @@ import Footer from '@/components/Footer.vue';
 // import Cronometro from '@/components/Cronometro.vue';
 import Faq from '@/components/Faq.vue';
 import Patrocinio from '@/components/Patrocinio.vue'
+import Programacao from '@/components/Programacao.vue'
 
 
 export default {
@@ -232,7 +233,8 @@ export default {
     Footer,
     // Cronometro,
     Faq,
-    Patrocinio
+    Patrocinio,
+    Programacao
 },
 
   data: () => ({

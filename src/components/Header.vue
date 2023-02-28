@@ -76,7 +76,7 @@
 
 
 
-@media (max-width: 768px)
+@media  only screen and (max-width: 768px)
 {
   h1.title_header{
     margin-top: 80px !important;

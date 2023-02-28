@@ -214,10 +214,10 @@
                     @mouseout="jp = require('../assets/img/patrocinio/joao_pessoa_false.png')" width="80%"/>
                 </div>
                 <div class="col-md-2 mx-4 d-flex justify-content-center">
-                        <img :src="codata"
-                        @mouseover='codata = require("../assets/img/patrocinio/codata.png")'
-                        @mouseout="codata = require('../assets/img/patrocinio/codata_false.png')" width="80%"/>
-                    </div>
+                    <img :src="codata"
+                    @mouseover='codata = require("../assets/img/patrocinio/codata.png")'
+                    @mouseout="codata = require('../assets/img/patrocinio/codata_false.png')" width="80%"/>
+                </div>
            </div>
            
         </div>
@@ -434,7 +434,7 @@
 }
 
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .hidden{
     display: block !important;
   }

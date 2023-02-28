@@ -1,5 +1,5 @@
 <template>
-    <div style="padding-bottom: 100px;" class="sobre">
+    <div style="padding-bottom: 100px; padding-top: 100px;" class="sobre">
         <div class="container diferenciais">
             <h1 class="titulo_tema pt-0"> Sobre o Mulher Tech</h1>
             <div class="container">
