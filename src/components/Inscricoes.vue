@@ -11,7 +11,7 @@
                     <p class="titulo_inscricao d-flex justify-content-center">Inscrição</p>
                     <div class="row">
                         <div class="col-md-1 d-flex justify-content-center align-items-center">
-                            <p class="voltar">Voltar</p>
+                            <router-link class="voltar" to="/">Voltar</router-link>
                         </div>
                         <div class="col-md-10 d-flex justify-content-center">
                             <p class="subtitulo_inscricao">Atividades</p>
@@ -52,7 +52,7 @@
                                         </div>
                                    
                                     <div>
-                                        <v-btn to="/inscricao" target="_blank" id="inscricao" style="color:white !important; margin-right: 16px;">Inscreva-se</v-btn>
+                                        <v-btn to="/code_game" id="inscricao" style="color:white !important; margin-right: 16px;">Inscreva-se</v-btn>
                                     </div> 
                                 </div>
                                 <div class="row justify-content-between align-items-center" variant="outlined" id="card_atividades" style="margin:16px;border: 1px solid rgba(151, 71, 255, 0.31); border-radius: 8px">
@@ -66,7 +66,7 @@
                                         </div>
                                    
                                     <div >
-                                        <v-btn to="/inscricao" target="_blank" id="inscricao" style="color:white !important; margin-right: 16px; margin-left: 16px; margin-bottom: 16px;">Inscreva-se</v-btn>
+                                        <v-btn to="/work1" id="inscricao" style="color:white !important; margin-right: 16px; margin-left: 16px; margin-bottom: 16px;">Inscreva-se</v-btn>
                                     </div> 
                                 </div>
                                 <div class="row justify-content-between align-items-center" variant="outlined" id="card_atividades" style="margin:16px;border: 1px solid rgba(151, 71, 255, 0.31); border-radius: 8px">
@@ -80,7 +80,7 @@
                                         </div>
                                    
                                     <div >
-                                        <v-btn to="/inscricao" target="_blank" id="inscricao" style="color:white !important; margin-right: 16px; margin-left: 16px; margin-bottom: 16px;">Inscreva-se</v-btn>
+                                        <v-btn to="/work2" id="inscricao" style="color:white !important; margin-right: 16px; margin-left: 16px; margin-bottom: 16px;">Inscreva-se</v-btn>
                                     </div> 
                                 </div>
                             </div>

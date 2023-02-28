@@ -28,7 +28,7 @@
           </a> -->
       </div>
       <div class=" col-2 d-flex justify-content-end" style="align-content:center;flex-wrap: wrap;">
-        <v-btn class=" hidden-sm-and-down primary_button" target="_blank" href="https://www.eventbrite.com.br/e/mulher-tech-sim-senhor-2023-tickets-508226849187">Inscreva-se</v-btn>
+        <!-- <v-btn class=" hidden-sm-and-down primary_button" target="_blank" href="https://www.eventbrite.com.br/e/mulher-tech-sim-senhor-2023-tickets-508226849187">Inscreva-se</v-btn> -->
       </div>
     </div>
   </div>

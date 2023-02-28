@@ -123,7 +123,7 @@
                                     Apoio @ Alura
                                 </div> -->
                             </div>
-                            <!-- <v-btn to="/inscricao" target="_blank" id="inscricao" style="color:white !important; margin-right: 16px;">Inscreva-se</v-btn> -->
+                            <v-btn to="/inscricao" target="_blank" id="inscricao" style="color:white !important; margin-right: 16px;">Inscreva-se</v-btn>
                             
                         </v-card-item>
                     </v-card>
@@ -131,18 +131,18 @@
                 <div class="mt-5">
                     <v-expansion-panels id="card_work">
                         <v-expansion-panel id="top">
-                            <!-- <div class="d-flex my-auto mt-2 hidden" id="esconde" style="align-items: center;">
+                            <div class="d-flex my-auto mt-2 hidden" id="esconde" style="align-items: center;">
                                 <p class="ml-2 inscricoes_abertas" style="margin-bottom: 0px !important;">
                                     Inscrições abertas
                                 </p>
-                            </div> -->
+                            </div>
                             <v-expansion-panel-header class="titulo_card" style="padding-top: 16px " disable-icon-rotate>
                             Workshops
-                            <!-- <div class="d-flex my-auto hidden2" id="esconde" style="align-items: center;">
+                            <div class="d-flex my-auto hidden2" id="esconde" style="align-items: center;">
                                 <p class="ml-2 inscricoes_abertas" style="margin-bottom: 0px !important;">
                                     Inscrições abertas
                                 </p>
-                            </div> -->
+                            </div>
                             <template v-slot:actions>
                                 <div class="d-flex align-items-center verMais" style="color: #9747FF;">
                                     Ver mais
@@ -163,9 +163,9 @@
                                                 Laysa Belici | Engenheira de dados @ Energisa
                                             </div>
                                         </div>
-                                        <!-- <div to="/inscricao" target="_blank" id="inscricao" style="color:white !important; padding-left: 16px;">
+                                        <div to="/inscricao" target="_blank" id="inscricao" style="color:white !important; padding-left: 16px;">
                                             <v-btn class="btn_insc" id="inscricao">Inscreva-se</v-btn>
-                                        </div> -->
+                                        </div>
                                         
                                         
                                     </v-card-item>
@@ -180,9 +180,9 @@
                                                 Micheline Barroso e Lívia Vasconcelos | Fundadoras @ Inova-te
                                             </div>
                                         </div>
-                                        <!-- <div to="/inscricao" target="_blank" id="inscricao" style="color:white !important; padding-left: 16px;">
+                                        <div to="/inscricao" target="_blank" id="inscricao" style="color:white !important; padding-left: 16px;">
                                             <v-btn class="btn_insc" id="inscricao">Inscreva-se</v-btn>
-                                        </div> -->
+                                        </div>
                                         
                                         
                                     </v-card-item>
