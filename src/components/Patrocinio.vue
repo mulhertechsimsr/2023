@@ -171,7 +171,7 @@
                         v-model="model"
                         
                         selected-class="bg-success"
-                        
+                        style="padding-left: 40px;"
                         >
                         <v-slide-item
                         v-for="item in items"
@@ -295,6 +295,11 @@
                 cota: require("../assets/img/patrocinio/madrinha.svg")
             },
             {
+                name: "Jusbrasil",
+                image: require("../assets/img/patrocinio/jusbrasil.png"),
+                cota: require("../assets/img/patrocinio/madrinha.svg")
+            },
+            {
                 name: "Dock",
                 image: require("../assets/img/patrocinio/dock.png"),
                 cota: require("../assets/img/patrocinio/inspiradora.svg")
@@ -307,6 +312,11 @@
             {
                 name: "Assespro",
                 image: require("../assets/img/patrocinio/assespro.png"),
+                cota: require("../assets/img/patrocinio/realizadora.svg")
+            },
+            {
+                name: "Lit Collective",
+                image: require("../assets/img/patrocinio/lit.png"),
                 cota: require("../assets/img/patrocinio/realizadora.svg")
             },
             {
@@ -337,6 +347,11 @@
             {
                 name: "MaxMilhas",
                 image: require("../assets/img/patrocinio/maxmilhas.png"),
+                cota: require("../assets/img/patrocinio/colaboradora.svg")
+            },
+            {
+                name: "NTT DATA",
+                image: require("../assets/img/patrocinio/ntt.png"),
                 cota: require("../assets/img/patrocinio/colaboradora.svg")
             },
             {
