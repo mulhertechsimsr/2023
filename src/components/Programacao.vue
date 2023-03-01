@@ -114,16 +114,27 @@
                 </div>
                 <div class="mt-5">
                     <v-card variant="outlined" id="card_atividade" style="position:relative;">
-                        <v-card-item class="row align-items-center justify-content-between margem">
+                        <v-card-item class="row align-items-center justify-content-start margem">
                             <div>
+                                <div class="d-flex my-auto mt-2 hidden" id="esconde" style="align-items: center;">
+                                    <p class="ml-2 inscricoes_abertas" style="margin-bottom: 0px !important;">
+                                        Inscrições esgotadas
+                                    </p>
+                                </div>
                                 <div class="titulo_card" style="padding-top: 16px ">
                                     Code Game
                                 </div>
+                                
                                 <!-- <div class="subtitulo_card">
                                     Apoio @ Alura
                                 </div> -->
                             </div>
-                            <v-btn to="/inscricao" target="_blank" id="inscricao" style="color:white !important; margin-right: 16px;">Inscreva-se</v-btn>
+                            <div class="d-flex my-auto hidden2" id="esconde" style="align-items: center;">
+                                <p class="inscricoes_abertas" style="margin-bottom: 0px !important;">
+                                    Inscrições esgotadas
+                                </p>
+                            </div>
+                            <!-- <v-btn to="/inscricao" target="_blank" id="inscricao" style="color:white !important; margin-right: 16px;">Inscreva-se</v-btn> -->
                             
                         </v-card-item>
                     </v-card>
@@ -133,14 +144,14 @@
                         <v-expansion-panel id="top">
                             <div class="d-flex my-auto mt-2 hidden" id="esconde" style="align-items: center;">
                                 <p class="ml-2 inscricoes_abertas" style="margin-bottom: 0px !important;">
-                                    Inscrições abertas
+                                    Inscrições esgotadas
                                 </p>
                             </div>
                             <v-expansion-panel-header class="titulo_card" style="padding-top: 16px " disable-icon-rotate>
                             Workshops
                             <div class="d-flex my-auto hidden2" id="esconde" style="align-items: center;">
                                 <p class="ml-2 inscricoes_abertas" style="margin-bottom: 0px !important;">
-                                    Inscrições abertas
+                                    Inscrições esgotadas
                                 </p>
                             </div>
                             <template v-slot:actions>
@@ -155,7 +166,7 @@
                             <v-expansion-panel-content>
                                 <v-card variant="outlined" id="card_atividade" style="position:relative; border: 1px solid rgba(151, 71, 255, 0.31);" >
                                     <v-card-item class="row w-100 align-items-center justify-content-between">
-                                        <div class="col-md-8">
+                                        <div class="col-md-12">
                                             <div class="titulo_card titulo_workshop" style="padding-top: 16px ">
                                                 Visualização de dados com Locker Studio: Primeiros passos pra engenharia analítica
                                             </div>
@@ -172,7 +183,7 @@
                                 </v-card>
                                 <v-card variant="outlined" id="card_atividade" class="mt-5" style="position:relative; border: 1px solid rgba(151, 71, 255, 0.31);" >
                                     <v-card-item class="row w-100 align-items-center justify-content-between">
-                                        <div class="col-md-8">
+                                        <div class="col-md-12">
                                             <div class="titulo_card titulo_workshop" style="padding-top: 16px ">
                                                 Design Thiking: Ouse transformar
                                             </div>
@@ -180,9 +191,9 @@
                                                 Micheline Barroso e Lívia Vasconcelos | Fundadoras @ Inova-te
                                             </div>
                                         </div>
-                                        <div  id="inscricao" style="color:white !important; padding-left: 16px;">
+                                        <!-- <div  id="inscricao" style="color:white !important; padding-left: 16px;">
                                             <v-btn to="/inscricao" target="_blank" style="color:white !important;" class="btn_insc" id="inscricao">Inscreva-se</v-btn>
-                                        </div>
+                                        </div> -->
                                         
                                         
                                     </v-card-item>
@@ -531,7 +542,7 @@
     box-shadow: none;
   }
   .inscricoes_abertas{
-    background: rgba(151, 71, 255, 0.4);
+    background: #FF765E;
     border-radius: 10px;
     font-family: 'Verdana';
     font-style: normal;
@@ -541,7 +552,7 @@
     padding: 4px 8px;
     text-align: center;
 
-    color: #000000;
+    color: white;
   }
   .v-expansion-panel#top{
     margin-top: 0px !important;
