@@ -119,7 +119,7 @@ import router from '../router/router'
             }
         },
         async inscrever(){
-            db.collection("workshop2").get().then((querySnapshot) => {
+            await db.collection("workshop2").get().then((querySnapshot) => {
                 querySnapshot.forEach((doc) => {
                     // doc.data() is never undefined for query doc snapshots
                     this.Users.push(doc.data())

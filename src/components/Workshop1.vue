@@ -119,13 +119,14 @@ import router from '../router/router'
             }
         },
         async inscrever(){
-            db.collection("workshop1").get().then((querySnapshot) => {
+            await db.collection("workshop1").get().then((querySnapshot) => {
                 querySnapshot.forEach((doc) => {
                     // doc.data() is never undefined for query doc snapshots
                     this.Users.push(doc.data())
                 });
             });
             if (this.Users.length <= 30){
+                console.log(this.Users.length)
                 db.collection('workshop1').add(this.user).then(() => {
                     Swal.fire({
                         icon: 'success',
