@@ -100,14 +100,20 @@
                         @mouseout="maxmilhas = require('../assets/img/patrocinio/maxmilhas_false.png')" width="40%"/>
                         <img v-if="colaboradora" src='../assets/img/patrocinio/maxmilhas.png'  width="40%"/>
                     </div>
-                    <div class="col-md-3 d-flex justify-content-center">
+                    <div class="col-md-4 d-flex justify-content-center">
                         <img v-if="!madrinha" :src="google"
                         @mouseover='google = require("../assets/img/patrocinio/google.png")'
-                        @mouseout="google = require('../assets/img/patrocinio/google_false.png')" width="80%"/>
-                        <img v-if="madrinha" src='../assets/img/patrocinio/google.png'  width="80%"/>
+                        @mouseout="google = require('../assets/img/patrocinio/google_false.png')" width="100%"/>
+                        <img v-if="madrinha" src='../assets/img/patrocinio/google.png'  width="100%"/>
                     </div>
             </div>
             <div class="row mx-5 justify-content-center" style="align-items: center; margin-top: 30px;">
+                    <div class="col-md-4 d-flex justify-content-center">
+                        <img v-if="!madrinha" :src="jusbrasil"
+                        @mouseover='jusbrasil = require("../assets/img/patrocinio/jusbrasil.png")'
+                        @mouseout="jusbrasil = require('../assets/img/patrocinio/jusbrasil_false.png')" width="75%"/>
+                        <img v-if="madrinha" src='../assets/img/patrocinio/jusbrasil.png'  width="75%"/>
+                    </div>
                     <div class="col-md-2 d-flex justify-content-center">
                         <img v-if="!incentivadora" :src="rebase"
                         @mouseover='rebase = require("../assets/img/patrocinio/rebase.png")'
@@ -115,12 +121,20 @@
                         <img v-if="incentivadora" src='../assets/img/patrocinio/rebase.png'  width="50%"/>
                     </div>
                     <div class="col-md-2 d-flex justify-content-center">
+                        <img v-if="!realizadora" :src="lit"
+                        @mouseover='lit = require("../assets/img/patrocinio/lit.png")'
+                        @mouseout="lit = require('../assets/img/patrocinio/lit_false.png')" width="80%"/>
+                        <img v-if="realizadora" src='../assets/img/patrocinio/lit.png'  width="80%"/>
+                    </div>
+                    <div class="col-md-2 d-flex justify-content-center">
                         <img v-if="!colaboradora" :src="fiabilite"
                         @mouseover='fiabilite = require("../assets/img/patrocinio/fiabillite.png")'
                         @mouseout="fiabilite = require('../assets/img/patrocinio/fiabillite_false.png')" width="40%"/>
                         <img v-if="colaboradora" src='../assets/img/patrocinio/fiabillite.png'  width="40%"/>
                     </div>
-                    <div class="col-md-3 d-flex justify-content-center">
+            </div>
+            <div class="row mx-5 justify-content-center" style="align-items: center; margin-top: 30px;">
+                <div class="col-md-3 d-flex justify-content-center">
                         <img v-if="!realizadora" :src="luizalabs"
                         @mouseover='luizalabs = require("../assets/img/patrocinio/luizalabs.png")'
                         @mouseout="luizalabs = require('../assets/img/patrocinio/luizalabs_false.png')" width="50%"/>
@@ -129,8 +143,14 @@
                     <div class="col-md-2 d-flex justify-content-center">
                         <img v-if="!colaboradora" :src="vsoft"
                         @mouseover='vsoft = require("../assets/img/patrocinio/vsoft.png")'
-                        @mouseout="vsoft = require('../assets/img/patrocinio/vsoft_false.png')" width="40%"/>
-                        <img v-if="colaboradora" src='../assets/img/patrocinio/vsoft.png'  width="40%"/>
+                        @mouseout="vsoft = require('../assets/img/patrocinio/vsoft_false.png')" width="50%"/>
+                        <img v-if="colaboradora" src='../assets/img/patrocinio/vsoft.png'  width="50%"/>
+                    </div>
+                    <div class="col-md-2 d-flex justify-content-center">
+                        <img v-if="!colaboradora" :src="ntt"
+                        @mouseover='ntt = require("../assets/img/patrocinio/ntt.png")'
+                        @mouseout="ntt = require('../assets/img/patrocinio/ntt_false.png')" width="50%"/>
+                        <img v-if="colaboradora" src='../assets/img/patrocinio/ntt.png'  width="50%"/>
                     </div>
                     <div class="col-md-3 d-flex justify-content-center">
                         <img v-if="!realizadora" :src="assespro"
@@ -259,6 +279,9 @@
         luizalabs: require("../assets/img/patrocinio/luizalabs_false.png"),
         vsoft: require("../assets/img/patrocinio/vsoft_false.png"),
         assespro: require("../assets/img/patrocinio/assespro_false.png"),
+        jusbrasil: require("../assets/img/patrocinio/jusbrasil_false.png"),
+        lit: require("../assets/img/patrocinio/lit_false.png"),
+        ntt: require("../assets/img/patrocinio/ntt_false.png"),
         model: null,
         items:[
             {
