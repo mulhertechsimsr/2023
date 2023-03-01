@@ -413,7 +413,7 @@
                                                 TI sem programar!
                                             </div>
                                             <div class="subtitulo_card">
-                                                Tatiane Sousa | Analista de Recursos Humanos @ Dock
+                                                Natasha Costa | Analista de Recursos Humanos @ Dock
                                             </div>
                                         </div>
                                         
