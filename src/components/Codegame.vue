@@ -144,7 +144,7 @@ import router from '../router/router'
                     this.Users.push(doc.data())
                 });
             });
-            if (this.Users.length <= 90){
+            if (this.Users.length <= 40){
                 db.collection('code_game').add(this.user).then(() => {
                     Swal.fire({
                         icon: 'success',
