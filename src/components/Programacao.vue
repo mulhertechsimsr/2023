@@ -142,15 +142,15 @@
                     <v-expansion-panels id="card_work">
                         <v-expansion-panel id="top">
                             <div class="d-flex my-auto mt-2 hidden" id="esconde" style="align-items: center;">
-                                <p class="ml-2 inscricoes_abertas" style="margin-bottom: 0px !important;">
-                                    Inscrições abertas
+                                <p class="ml-2 inscricoes_abertas" style="color:white;margin-bottom: 0px !important; background: #FF765E;">
+                                    Inscrições esgotadas
                                 </p>
                             </div>
                             <v-expansion-panel-header class="titulo_card" style="padding-top: 16px " disable-icon-rotate>
                             Workshops
                             <div class="d-flex my-auto hidden2" id="esconde" style="align-items: center;">
-                                <p class="ml-2 inscricoes_abertas" style="margin-bottom: 0px !important;">
-                                    Inscrições abertas
+                                <p class="ml-2 inscricoes_abertas" style="color:white;margin-bottom: 0px !important; background: #FF765E;">
+                                    Inscrições esgotadas
                                 </p>
                             </div>
                             <template v-slot:actions>
@@ -165,7 +165,8 @@
                             <v-expansion-panel-content>
                                 <v-card variant="outlined" id="card_atividade" style="position:relative; border: 1px solid rgba(151, 71, 255, 0.31);" >
                                     <v-card-item class="row w-100 align-items-center justify-content-between">
-                                        <div class="col-md-8">
+                                        <div class="col-md-12">
+
                                             <div class="titulo_card titulo_workshop" style="padding-top: 16px ">
                                                 Visualização de dados com Locker Studio: Primeiros passos pra engenharia analítica
                                             </div>
@@ -173,21 +174,15 @@
                                                 Laysa Belici | Engenheira de dados @ Energisa
                                             </div>
                                         </div>
-                                        <div  id="inscricao" style="color:white !important; padding-left: 16px;">
-                                            <v-btn to="/work1" target="_blank" style="color:white !important;" class="btn_insc" id="inscricao">Inscreva-se</v-btn>
-                                        </div>
+            
                                         
                                         
                                     </v-card-item>
                                 </v-card>
                                 <v-card variant="outlined" id="card_atividade" class="mt-5" style="position:relative; border: 1px solid rgba(151, 71, 255, 0.31);" >
                                     <v-card-item class="row w-100 align-items-center justify-content-between">
-                                        <div class="col-md-8">
-                                            <div class="d-flex my-auto mt-2 hidden" id="esconde" style="align-items: center;">
-                                                <p class="ml-2 inscricoes_abertas" style="color:white;margin-bottom: 0px !important; background: #FF765E;">
-                                                    Inscrições esgotadas
-                                                </p>
-                                            </div>
+                                        <div class="col-md-12">
+                                            
                                             <div class="titulo_card titulo_workshop" style="padding-top: 16px ">
                                                 Design Thiking: Ouse transformar
                                             </div>
@@ -196,11 +191,7 @@
                                             </div>
                                             
                                         </div>
-                                        <div class="d-flex my-auto hidden2" id="esconde" style="align-items: center;">
-                                            <p class="inscricoes_abertas" style="color:white;margin-bottom: 0px !important; background: #FF765E;">
-                                                Inscrições esgotadas
-                                            </p>
-                                        </div>
+                                        
                                         <!-- <div  id="inscricao" style="color:white !important; padding-left: 16px;">
                                             <v-btn to="/inscricao" target="_blank" style="color:white !important;" class="btn_insc" id="inscricao">Inscreva-se</v-btn>
                                         </div> -->
