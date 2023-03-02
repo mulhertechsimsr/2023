@@ -125,7 +125,7 @@ import router from '../router/router'
                     this.Users.push(doc.data())
                 });
             });
-            if (this.Users.length <= 29){
+            if (this.Users.length < 30){
                 console.log(this.Users.length)
                 db.collection('workshop1').add(this.user).then(() => {
                     Swal.fire({

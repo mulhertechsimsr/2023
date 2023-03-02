@@ -125,7 +125,7 @@ import router from '../router/router'
                     this.Users.push(doc.data())
                 });
             });
-            if (this.Users.length <= 29){
+            if (this.Users.length < 29){
                 db.collection('workshop2').add(this.user).then(() => {
                     Swal.fire({
                         icon: 'success',

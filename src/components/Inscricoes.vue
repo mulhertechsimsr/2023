@@ -65,23 +65,32 @@
                                             </div>
                                         </div>
                                    
-                                    <!-- <div >
+                                    <div >
                                         <v-btn to="/work1" id="inscricao" style="color:white !important; margin-right: 16px; margin-left: 16px; margin-bottom: 16px;">Inscreva-se</v-btn>
-                                    </div>  -->
+                                    </div> 
                                 </div>
                                 <div class="row justify-content-between align-items-center" variant="outlined" id="card_atividades" style="margin:16px;border: 1px solid rgba(151, 71, 255, 0.31); border-radius: 8px">
                                     <div class="col-md-8">
-                                            <div id="insc" class="pl-0" style="margin-top: 16px;">
-                                                Design Thiking - Ouse transformar
-                                            </div>
-                                            <div class="subtitulo_card pl-0">
-                                                Micheline Barroso e Lívia Vasconcelos | Fundadoras @ Inova-te
-                                            </div>
+                                        <div id="insc" class="pl-0" style="margin-top: 16px;">
+                                            Design Thiking - Ouse transformar
                                         </div>
-                                   
-                                    <div >
+                                        <div class="subtitulo_card pl-0">
+                                            Micheline Barroso e Lívia Vasconcelos | Fundadoras @ Inova-te
+                                        </div>
+                                        <div class="d-flex my-auto mt-2 hidden" id="esconde" style="align-items: center;">
+                                            <p class="inscricoes_abertas" style="margin-bottom:16px !important;color:white;background: #FF765E;">
+                                                Inscrições esgotadas
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex my-auto mt-2 hidden2" id="esconde" style="align-items: center;">
+                                        <p class="mr-3 inscricoes_abertas" style="color:white;margin-bottom: 0px !important; background: #FF765E;">
+                                            Inscrições esgotadas
+                                        </p>
+                                    </div>
+                                    <!-- <div >
                                         <v-btn to="/work2" id="inscricao" style="color:white !important; margin-right: 16px; margin-left: 16px; margin-bottom: 16px;">Inscreva-se</v-btn>
-                                    </div> 
+                                    </div>  -->
                                 </div>
                             </div>
                             
@@ -100,6 +109,19 @@
 </script>
 
 <style>
+.inscricoes_abertas{
+    background: rgba(151, 71, 255, 0.4);
+    border-radius: 10px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 4px 8px;
+    text-align: center;
+
+    color: black;
+  }
 .voltar{
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -144,4 +166,14 @@
     letter-spacing: 0.15px;
     color: #1D1B1F;
 }
+
+/* @media only screen and (max-width: 576px)
+{
+  .hidden#esconde{
+    display: flex !important;
+  }
+  .hidden2#esconde{
+    display: none !important;
+  }
+} */
 </style>
