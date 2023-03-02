@@ -114,8 +114,13 @@
                 </div>
                 <div class="mt-5">
                     <v-card variant="outlined" id="card_atividade" style="position:relative;">
-                        <v-card-item class="row align-items-center justify-content-between margem">
+                        <v-card-item class="row align-items-center justify-content-start margem">
                             <div>
+                                <div class="d-flex my-auto mt-2 hidden" id="esconde" style="align-items: center;">
+                                    <p class="ml-2 inscricoes_abertas" style="color:white;margin-bottom: 0px !important; background: #FF765E;">
+                                        Inscrições esgotadas
+                                    </p>
+                                </div>
                                 <div class="titulo_card" style="padding-top: 16px ">
                                     Code Game
                                 </div>
@@ -123,7 +128,11 @@
                                     Apoio @ Alura
                                 </div> -->
                             </div>
-                            <v-btn to="/code_game" target="_blank" id="inscricao" style="color:white !important; margin-right: 16px;">Inscreva-se</v-btn>
+                            <div class="d-flex my-auto hidden2" id="esconde" style="align-items: center;">
+                                <p class="inscricoes_abertas" style="color:white;margin-bottom: 0px !important; background: #FF765E;">
+                                    Inscrições esgotadas
+                                </p>
+                            </div>
                             
                             
                         </v-card-item>
